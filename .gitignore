@@ -1,0 +1,28 @@
+# Local tools and credentials
+.codex/
+.agents/
+.vscode/
+.env
+.env.*
+!.env.example
+*token*.json
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+Untitled*.ipynb
+# Competition data (download separately)
+1.injection-molding/dataset/*
+!1.injection-molding/dataset/README.md
+5.resource-optimization/data/
+# Reproducible models and per-record outputs
+**/artifacts/notebook_runs/
+**/artifacts/**/models/
+*.joblib
+*.log
+**/artifacts/**/oof_predictions.csv
+**/artifacts/**/splits.json
+**/artifacts/**/*_rows.csv
+**/artifacts/**/labeled_feature_groups.csv

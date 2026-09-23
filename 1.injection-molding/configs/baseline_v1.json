@@ -1,0 +1,17 @@
+{
+  "run_name": "baseline_v1",
+  "positive_label": 1,
+  "label_semantics": "unconfirmed; class_1 is not assumed to be failure",
+  "scenarios": ["cn7", "rg3", "pooled"],
+  "outer_seeds": [42, 1729, 2026],
+  "outer_folds": 3,
+  "inner_folds": 3,
+  "model_seed": 42,
+  "tie_seed": 314159,
+  "models": ["dummy_prior", "logistic", "logistic_balanced", "xgboost", "xgboost_balanced"],
+  "drop_features": ["Clamp_Open_Position"],
+  "ranking_budgets": [0.01, 0.03, 0.05, 0.10, 0.20],
+  "threshold_rule": "maximize binary F1 on inner group OOF; ties choose highest threshold; outer validation never used",
+  "logistic": {"C": 1.0, "max_iter": 2000, "solver": "lbfgs"},
+  "xgboost": {"n_estimators": 150, "max_depth": 3, "learning_rate": 0.05, "min_child_weight": 5, "subsample": 0.8, "colsample_bytree": 0.8, "reg_lambda": 5.0, "reg_alpha": 0.0, "objective": "binary:logistic", "eval_metric": "logloss", "tree_method": "hist", "device": "cpu", "n_jobs": 4}
+}

@@ -1,0 +1,1252 @@
+{
+  "audit_version": "1.0",
+  "python": "3.11.9",
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "group_definition": "Exact equality of 24 process features within each file; ID and label excluded.",
+  "limitations": [
+    "Label semantics unconfirmed",
+    "No near-duplicate or cross-file matching",
+    "Diagnostic splits are not final validation splits",
+    "Not a complete Phase 1 distribution/EDA audit"
+  ],
+  "files": {
+    "moldset_labeled_cn7.csv": {
+      "rows": 1211,
+      "columns": [
+        "Unnamed: 0",
+        "PassOrFail",
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "features": [
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "dtypes": {
+        "Unnamed: 0": "int64",
+        "PassOrFail": "int64",
+        "Injection_Time": "float64",
+        "Filling_Time": "float64",
+        "Plasticizing_Time": "float64",
+        "Cycle_Time": "float64",
+        "Clamp_Close_Time": "float64",
+        "Cushion_Position": "float64",
+        "Plasticizing_Position": "float64",
+        "Clamp_Open_Position": "float64",
+        "Max_Injection_Speed": "float64",
+        "Max_Screw_RPM": "float64",
+        "Average_Screw_RPM": "float64",
+        "Max_Injection_Pressure": "float64",
+        "Max_Switch_Over_Pressure": "float64",
+        "Max_Back_Pressure": "float64",
+        "Average_Back_Pressure": "float64",
+        "Barrel_Temperature_1": "float64",
+        "Barrel_Temperature_2": "float64",
+        "Barrel_Temperature_3": "float64",
+        "Barrel_Temperature_4": "float64",
+        "Barrel_Temperature_5": "float64",
+        "Barrel_Temperature_6": "float64",
+        "Hopper_Temperature": "float64",
+        "Mold_Temperature_3": "float64",
+        "Mold_Temperature_4": "float64"
+      },
+      "missing_values": 0,
+      "infinite_values": 0,
+      "duplicate_full_rows": 0,
+      "duplicate_feature_rows_beyond_first": 605,
+      "unique_feature_groups": 606,
+      "group_size_histogram": {
+        "1": 1,
+        "2": 605
+      },
+      "constant_features": [
+        "Clamp_Open_Position"
+      ],
+      "id_unique": true,
+      "id_monotonic_increasing": true,
+      "feature_statistics": {
+        "Injection_Time": {
+          "mean": -2.9571720794640006e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -7.549090604630035,
+          "max": 2.080358148834239,
+          "unique_values": 15
+        },
+        "Filling_Time": {
+          "mean": -5.351073286649144e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -7.776798839482837,
+          "max": 2.2973265925758373,
+          "unique_values": 14
+        },
+        "Plasticizing_Time": {
+          "mean": 6.477615031206859e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990755,
+          "min": -0.7234252354354558,
+          "max": 20.038456444622817,
+          "unique_values": 34
+        },
+        "Cycle_Time": {
+          "mean": 5.069437850509716e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -3.706092122256563,
+          "max": 12.562466340634105,
+          "unique_values": 13
+        },
+        "Clamp_Close_Time": {
+          "mean": -1.574811480412972e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -0.9024657082140384,
+          "max": 2.8595367380268515,
+          "unique_values": 3
+        },
+        "Cushion_Position": {
+          "mean": 4.630532492906094e-12,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.6131626139519994,
+          "max": 6.9435031517245385,
+          "unique_values": 5
+        },
+        "Plasticizing_Position": {
+          "mean": -3.628403202262972e-14,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.8769620681080283,
+          "max": 1.592428553832081,
+          "unique_values": 13
+        },
+        "Clamp_Open_Position": {
+          "mean": 0.0,
+          "std_ddof0": 0.0,
+          "std_ddof1": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "unique_values": 1
+        },
+        "Max_Injection_Speed": {
+          "mean": 3.2388075156034296e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -1.5417849086143902,
+          "max": 9.555703092326354,
+          "unique_values": 20
+        },
+        "Max_Screw_RPM": {
+          "mean": -6.68884160831143e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.486329715676401,
+          "max": 3.4307518863528785,
+          "unique_values": 8
+        },
+        "Average_Screw_RPM": {
+          "mean": 4.196367998477487e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -1.2905901162753592,
+          "max": 16.086876378791573,
+          "unique_values": 7
+        },
+        "Max_Injection_Pressure": {
+          "mean": 1.074908581265486e-13,
+          "std_ddof0": 1.0000000000000002,
+          "std_ddof1": 1.0004131377990755,
+          "min": -10.861190943613664,
+          "max": 1.6802357647104924,
+          "unique_values": 8
+        },
+        "Max_Switch_Over_Pressure": {
+          "mean": -1.5924136951716862e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -10.462947080871016,
+          "max": 2.206755182294159,
+          "unique_values": 17
+        },
+        "Max_Back_Pressure": {
+          "mean": -3.755139148525715e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990755,
+          "min": -2.8518757180415357,
+          "max": 1.546295269055734,
+          "unique_values": 25
+        },
+        "Average_Back_Pressure": {
+          "mean": -3.708199909169144e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -6.631852464101554,
+          "max": 1.7530171009326676,
+          "unique_values": 15
+        },
+        "Barrel_Temperature_1": {
+          "mean": -1.8247629299867148e-14,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.6356615106427927,
+          "max": 3.196558116147952,
+          "unique_values": 25
+        },
+        "Barrel_Temperature_2": {
+          "mean": -3.505481069197951e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.9859790408526248,
+          "max": 3.398379398248631,
+          "unique_values": 24
+        },
+        "Barrel_Temperature_3": {
+          "mean": 8.745367032621216e-15,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.8933307975112963,
+          "max": 3.135185063934901,
+          "unique_values": 19
+        },
+        "Barrel_Temperature_4": {
+          "mean": 2.114319362767565e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.0468263785328964,
+          "max": 2.5447599929202678,
+          "unique_values": 36
+        },
+        "Barrel_Temperature_5": {
+          "mean": 5.257194807936001e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -4.6079757210645935,
+          "max": 3.393298026547383,
+          "unique_values": 22
+        },
+        "Barrel_Temperature_6": {
+          "mean": -3.579410371184551e-14,
+          "std_ddof0": 1.0000000000000002,
+          "std_ddof1": 1.0004131377990755,
+          "min": -2.719098944738335,
+          "max": 2.745415146681913,
+          "unique_values": 13
+        },
+        "Hopper_Temperature": {
+          "mean": -2.675536643324572e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004131377990753,
+          "min": -2.0826161573510205,
+          "max": 2.5503536397578515,
+          "unique_values": 47
+        },
+        "Mold_Temperature_3": {
+          "mean": -8.214366887400002e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004131377990753,
+          "min": -1.909795885896508,
+          "max": 1.380763630852969,
+          "unique_values": 39
+        },
+        "Mold_Temperature_4": {
+          "mean": -1.6428733774800003e-16,
+          "std_ddof0": 0.9999999999999997,
+          "std_ddof1": 1.000413137799075,
+          "min": -1.648588866484916,
+          "max": 1.4368695410664942,
+          "unique_values": 41
+        }
+      },
+      "label_counts": {
+        "0": 1194,
+        "1": 17
+      },
+      "conflicting_groups": 11,
+      "rows_in_conflicting_groups": 22,
+      "groups_containing_class_1": 14,
+      "diagnostic_3fold_seed42": [
+        {
+          "fold": 0,
+          "train_rows": 807,
+          "valid_rows": 404,
+          "train_class_1": 12,
+          "valid_class_1": 5,
+          "overlapping_groups": 0
+        },
+        {
+          "fold": 1,
+          "train_rows": 807,
+          "valid_rows": 404,
+          "train_class_1": 10,
+          "valid_class_1": 7,
+          "overlapping_groups": 0
+        },
+        {
+          "fold": 2,
+          "train_rows": 808,
+          "valid_rows": 403,
+          "train_class_1": 12,
+          "valid_class_1": 5,
+          "overlapping_groups": 0
+        }
+      ],
+      "sha256": "f870b0c259297f20d503f2e2739966553e5db5ef1deb0cc7513eefa4bbfa2753",
+      "bytes": 561704
+    },
+    "moldset_labeled_rg3.csv": {
+      "rows": 1182,
+      "columns": [
+        "Unnamed: 0",
+        "PassOrFail",
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "features": [
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "dtypes": {
+        "Unnamed: 0": "int64",
+        "PassOrFail": "int64",
+        "Injection_Time": "float64",
+        "Filling_Time": "float64",
+        "Plasticizing_Time": "float64",
+        "Cycle_Time": "float64",
+        "Clamp_Close_Time": "float64",
+        "Cushion_Position": "float64",
+        "Plasticizing_Position": "float64",
+        "Clamp_Open_Position": "float64",
+        "Max_Injection_Speed": "float64",
+        "Max_Screw_RPM": "float64",
+        "Average_Screw_RPM": "float64",
+        "Max_Injection_Pressure": "float64",
+        "Max_Switch_Over_Pressure": "float64",
+        "Max_Back_Pressure": "float64",
+        "Average_Back_Pressure": "float64",
+        "Barrel_Temperature_1": "float64",
+        "Barrel_Temperature_2": "float64",
+        "Barrel_Temperature_3": "float64",
+        "Barrel_Temperature_4": "float64",
+        "Barrel_Temperature_5": "float64",
+        "Barrel_Temperature_6": "float64",
+        "Hopper_Temperature": "float64",
+        "Mold_Temperature_3": "float64",
+        "Mold_Temperature_4": "float64"
+      },
+      "missing_values": 0,
+      "infinite_values": 0,
+      "duplicate_full_rows": 0,
+      "duplicate_feature_rows_beyond_first": 591,
+      "unique_feature_groups": 591,
+      "group_size_histogram": {
+        "2": 591
+      },
+      "constant_features": [
+        "Clamp_Open_Position"
+      ],
+      "id_unique": true,
+      "id_monotonic_increasing": true,
+      "feature_statistics": {
+        "Injection_Time": {
+          "mean": -4.715310676228618e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -8.627730385041827,
+          "max": 8.569633990700348,
+          "unique_values": 3
+        },
+        "Filling_Time": {
+          "mean": -1.923635156034112e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.1925314031676415,
+          "max": 0.8385523411322893,
+          "unique_values": 2
+        },
+        "Plasticizing_Time": {
+          "mean": -1.7601261677712126e-14,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.7362312346710054,
+          "max": 3.773532934232066,
+          "unique_values": 27
+        },
+        "Cycle_Time": {
+          "mean": 5.502648534233517e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.3950399372025626,
+          "max": 11.761887849595585,
+          "unique_values": 10
+        },
+        "Clamp_Close_Time": {
+          "mean": 4.97259687834818e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.8067254988278127,
+          "max": 1.033078147747445,
+          "unique_values": 3
+        },
+        "Cushion_Position": {
+          "mean": 2.788886249218256e-12,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.9118180435387704,
+          "max": 2.8676077756748666,
+          "unique_values": 7
+        },
+        "Plasticizing_Position": {
+          "mean": 1.813266588956655e-13,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.537408527602385,
+          "max": 2.932550301441406,
+          "unique_values": 8
+        },
+        "Clamp_Open_Position": {
+          "mean": 0.0,
+          "std_ddof0": 0.0,
+          "std_ddof1": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "unique_values": 1
+        },
+        "Max_Injection_Speed": {
+          "mean": -2.7556073610188658e-14,
+          "std_ddof0": 0.9999999999999998,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.5222910205480336,
+          "max": 2.187583295011355,
+          "unique_values": 7
+        },
+        "Max_Screw_RPM": {
+          "mean": -1.2069307764148403e-14,
+          "std_ddof0": 1.0000000000000002,
+          "std_ddof1": 1.000423280442236,
+          "min": -2.0085875478583746,
+          "max": 2.0199701834919805,
+          "unique_values": 4
+        },
+        "Average_Screw_RPM": {
+          "mean": -8.43273561526454e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.9605785402082003,
+          "max": 2.655763759644376,
+          "unique_values": 4
+        },
+        "Max_Injection_Pressure": {
+          "mean": -7.252104538248602e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000423280442236,
+          "min": -3.3907009774255954,
+          "max": 2.516677350426207,
+          "unique_values": 10
+        },
+        "Max_Switch_Over_Pressure": {
+          "mean": -1.1613947254555952e-14,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -13.791078364457531,
+          "max": 1.5464428714788303,
+          "unique_values": 17
+        },
+        "Max_Back_Pressure": {
+          "mean": 6.5884504094168345e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.574681985283334,
+          "max": 2.091966359624972,
+          "unique_values": 16
+        },
+        "Average_Back_Pressure": {
+          "mean": 8.127358534244124e-15,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.4693754581561533,
+          "max": 2.1806159488549217,
+          "unique_values": 21
+        },
+        "Barrel_Temperature_1": {
+          "mean": -4.462307568011162e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -3.166663722868448,
+          "max": 2.660669421463303,
+          "unique_values": 25
+        },
+        "Barrel_Temperature_2": {
+          "mean": 4.473654009751832e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.1926292561524083,
+          "max": 3.1390216698288818,
+          "unique_values": 22
+        },
+        "Barrel_Temperature_3": {
+          "mean": 2.130275651311214e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.46051520821568,
+          "max": 2.4563525652629603,
+          "unique_values": 17
+        },
+        "Barrel_Temperature_4": {
+          "mean": 4.0687889230052776e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.2922160097708995,
+          "max": 2.095202139472129,
+          "unique_values": 30
+        },
+        "Barrel_Temperature_5": {
+          "mean": -7.989698393390433e-14,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -4.419377469565401,
+          "max": 4.357846859637714,
+          "unique_values": 21
+        },
+        "Barrel_Temperature_6": {
+          "mean": -2.1749099982910682e-14,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.8399751984855137,
+          "max": 2.628795957612796,
+          "unique_values": 12
+        },
+        "Hopper_Temperature": {
+          "mean": -6.396086893813423e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000423280442236,
+          "min": -3.070513591715157,
+          "max": 2.115134977632738,
+          "unique_values": 52
+        },
+        "Mold_Temperature_3": {
+          "mean": -3.847270312068224e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0004232804422357,
+          "min": -1.963415139074561,
+          "max": 1.598652302148429,
+          "unique_values": 26
+        },
+        "Mold_Temperature_4": {
+          "mean": 4.80908789008528e-17,
+          "std_ddof0": 0.9999999999999998,
+          "std_ddof1": 1.0004232804422357,
+          "min": -2.0616090995758087,
+          "max": 1.822932731362528,
+          "unique_values": 29
+        }
+      },
+      "label_counts": {
+        "0": 1157,
+        "1": 25
+      },
+      "conflicting_groups": 25,
+      "rows_in_conflicting_groups": 50,
+      "groups_containing_class_1": 25,
+      "diagnostic_3fold_seed42": [
+        {
+          "fold": 0,
+          "train_rows": 788,
+          "valid_rows": 394,
+          "train_class_1": 18,
+          "valid_class_1": 7,
+          "overlapping_groups": 0
+        },
+        {
+          "fold": 1,
+          "train_rows": 788,
+          "valid_rows": 394,
+          "train_class_1": 15,
+          "valid_class_1": 10,
+          "overlapping_groups": 0
+        },
+        {
+          "fold": 2,
+          "train_rows": 788,
+          "valid_rows": 394,
+          "train_class_1": 17,
+          "valid_class_1": 8,
+          "overlapping_groups": 0
+        }
+      ],
+      "sha256": "14aab21476eea02c823ccb00f82800040280d805dbce5a3eb7c11b176a9e5aa4",
+      "bytes": 551941
+    },
+    "moldset_unlabeled_cn7.csv": {
+      "rows": 35239,
+      "columns": [
+        "Unnamed: 0",
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "features": [
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "dtypes": {
+        "Unnamed: 0": "int64",
+        "Injection_Time": "float64",
+        "Filling_Time": "float64",
+        "Plasticizing_Time": "float64",
+        "Cycle_Time": "float64",
+        "Clamp_Close_Time": "float64",
+        "Cushion_Position": "float64",
+        "Plasticizing_Position": "float64",
+        "Clamp_Open_Position": "float64",
+        "Max_Injection_Speed": "float64",
+        "Max_Screw_RPM": "float64",
+        "Average_Screw_RPM": "float64",
+        "Max_Injection_Pressure": "float64",
+        "Max_Switch_Over_Pressure": "float64",
+        "Max_Back_Pressure": "float64",
+        "Average_Back_Pressure": "float64",
+        "Barrel_Temperature_1": "float64",
+        "Barrel_Temperature_2": "float64",
+        "Barrel_Temperature_3": "float64",
+        "Barrel_Temperature_4": "float64",
+        "Barrel_Temperature_5": "float64",
+        "Barrel_Temperature_6": "float64",
+        "Hopper_Temperature": "float64",
+        "Mold_Temperature_3": "float64",
+        "Mold_Temperature_4": "float64"
+      },
+      "missing_values": 0,
+      "infinite_values": 0,
+      "duplicate_full_rows": 0,
+      "duplicate_feature_rows_beyond_first": 6468,
+      "unique_feature_groups": 28771,
+      "group_size_histogram": {
+        "1": 22303,
+        "2": 6468
+      },
+      "constant_features": [],
+      "id_unique": true,
+      "id_monotonic_increasing": true,
+      "feature_statistics": {
+        "Injection_Time": {
+          "mean": 1.0323728843303479e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -2.402388906268331,
+          "max": 1.7257161874890308,
+          "unique_values": 115
+        },
+        "Filling_Time": {
+          "mean": -7.678273327206962e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -7.252194548893106,
+          "max": 1.9734360606883852,
+          "unique_values": 124
+        },
+        "Plasticizing_Time": {
+          "mean": 2.5809322108258696e-17,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -1.274519040003784,
+          "max": 3.3847067005418734,
+          "unique_values": 307
+        },
+        "Cycle_Time": {
+          "mean": 6.3232839165233805e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -3.769573558579549,
+          "max": 2.0895951964092703,
+          "unique_values": 251
+        },
+        "Clamp_Close_Time": {
+          "mean": -9.033262737890544e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -1.1082900688007304,
+          "max": 1.1142945820416077,
+          "unique_values": 69
+        },
+        "Cushion_Position": {
+          "mean": -1.6776059370368154e-16,
+          "std_ddof0": 0.9999999999999998,
+          "std_ddof1": 1.0000141891268726,
+          "min": -0.9754534584181752,
+          "max": 1.0362068383808158,
+          "unique_values": 85
+        },
+        "Plasticizing_Position": {
+          "mean": -9.033262737890544e-17,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -1.4379095487675817,
+          "max": 1.555374103315644,
+          "unique_values": 169
+        },
+        "Clamp_Open_Position": {
+          "mean": 1.387251063318905e-15,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -4.626024736370458,
+          "max": 0.8618540096913753,
+          "unique_values": 47
+        },
+        "Max_Injection_Speed": {
+          "mean": -1.5485593264955218e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -1.7080862976584965,
+          "max": 2.979998615185408,
+          "unique_values": 242
+        },
+        "Max_Screw_RPM": {
+          "mean": 3.0971186529910437e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -0.9676894883242402,
+          "max": 3.115329798165808,
+          "unique_values": 21
+        },
+        "Average_Screw_RPM": {
+          "mean": 2.3228389897432827e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000014189126873,
+          "min": -0.9697655529045964,
+          "max": 1.5616292827678375,
+          "unique_values": 50
+        },
+        "Max_Injection_Pressure": {
+          "mean": -3.2261652635323373e-16,
+          "std_ddof0": 1.0000000000000002,
+          "std_ddof1": 1.000014189126873,
+          "min": -1.1182098729421772,
+          "max": 2.288552572777401,
+          "unique_values": 179
+        },
+        "Max_Switch_Over_Pressure": {
+          "mean": -1.8066525475781088e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -0.9969522633056984,
+          "max": 1.2532270889556103,
+          "unique_values": 254
+        },
+        "Max_Back_Pressure": {
+          "mean": -2.8390254319084565e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -1.2155416231341036,
+          "max": 4.607200620484304,
+          "unique_values": 184
+        },
+        "Average_Back_Pressure": {
+          "mean": -3.8713983162388046e-17,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -0.9377537743144015,
+          "max": 2.629160571415309,
+          "unique_values": 116
+        },
+        "Barrel_Temperature_1": {
+          "mean": 2.3228389897432827e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -0.969455203549331,
+          "max": 1.0663730602738426,
+          "unique_values": 87
+        },
+        "Barrel_Temperature_2": {
+          "mean": 4.684391962648954e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -2.6660151547418147,
+          "max": 1.0917240685110174,
+          "unique_values": 76
+        },
+        "Barrel_Temperature_3": {
+          "mean": -2.8390254319084565e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000014189126873,
+          "min": -5.175200996020142,
+          "max": 1.056925052153477,
+          "unique_values": 82
+        },
+        "Barrel_Temperature_4": {
+          "mean": 9.872065706408952e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000014189126873,
+          "min": -4.484686481978106,
+          "max": 2.057883765598652,
+          "unique_values": 128
+        },
+        "Barrel_Temperature_5": {
+          "mean": 1.4485482033260194e-15,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -3.765482514704863,
+          "max": 2.4104077745221573,
+          "unique_values": 95
+        },
+        "Barrel_Temperature_6": {
+          "mean": -8.646122906266663e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -2.389705211222545,
+          "max": 1.4849447767544697,
+          "unique_values": 81
+        },
+        "Hopper_Temperature": {
+          "mean": -4.1294915373213914e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.0000141891268728,
+          "min": -4.496282780392787,
+          "max": 1.773572116334749,
+          "unique_values": 279
+        },
+        "Mold_Temperature_3": {
+          "mean": -2.5809322108258696e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.000014189126873,
+          "min": -0.9521987756588,
+          "max": 2.0456763345737974,
+          "unique_values": 182
+        },
+        "Mold_Temperature_4": {
+          "mean": 7.742796632477609e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000141891268728,
+          "min": -0.9362660686639436,
+          "max": 2.2975817966583736,
+          "unique_values": 267
+        }
+      },
+      "sha256": "110a2d408d6cb8002caf26f50c06d06e42998e067e708788a3e37e9d1769b978",
+      "bytes": 16643923
+    },
+    "moldset_unlabeled_rg3.csv": {
+      "rows": 35941,
+      "columns": [
+        "Unnamed: 0",
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "features": [
+        "Injection_Time",
+        "Filling_Time",
+        "Plasticizing_Time",
+        "Cycle_Time",
+        "Clamp_Close_Time",
+        "Cushion_Position",
+        "Plasticizing_Position",
+        "Clamp_Open_Position",
+        "Max_Injection_Speed",
+        "Max_Screw_RPM",
+        "Average_Screw_RPM",
+        "Max_Injection_Pressure",
+        "Max_Switch_Over_Pressure",
+        "Max_Back_Pressure",
+        "Average_Back_Pressure",
+        "Barrel_Temperature_1",
+        "Barrel_Temperature_2",
+        "Barrel_Temperature_3",
+        "Barrel_Temperature_4",
+        "Barrel_Temperature_5",
+        "Barrel_Temperature_6",
+        "Hopper_Temperature",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4"
+      ],
+      "dtypes": {
+        "Unnamed: 0": "int64",
+        "Injection_Time": "float64",
+        "Filling_Time": "float64",
+        "Plasticizing_Time": "float64",
+        "Cycle_Time": "float64",
+        "Clamp_Close_Time": "float64",
+        "Cushion_Position": "float64",
+        "Plasticizing_Position": "float64",
+        "Clamp_Open_Position": "float64",
+        "Max_Injection_Speed": "float64",
+        "Max_Screw_RPM": "float64",
+        "Average_Screw_RPM": "float64",
+        "Max_Injection_Pressure": "float64",
+        "Max_Switch_Over_Pressure": "float64",
+        "Max_Back_Pressure": "float64",
+        "Average_Back_Pressure": "float64",
+        "Barrel_Temperature_1": "float64",
+        "Barrel_Temperature_2": "float64",
+        "Barrel_Temperature_3": "float64",
+        "Barrel_Temperature_4": "float64",
+        "Barrel_Temperature_5": "float64",
+        "Barrel_Temperature_6": "float64",
+        "Hopper_Temperature": "float64",
+        "Mold_Temperature_3": "float64",
+        "Mold_Temperature_4": "float64"
+      },
+      "missing_values": 0,
+      "infinite_values": 0,
+      "duplicate_full_rows": 0,
+      "duplicate_feature_rows_beyond_first": 6234,
+      "unique_feature_groups": 29707,
+      "group_size_histogram": {
+        "1": 23473,
+        "2": 6234
+      },
+      "constant_features": [],
+      "id_unique": true,
+      "id_monotonic_increasing": true,
+      "feature_statistics": {
+        "Injection_Time": {
+          "mean": 1.8978910612662313e-16,
+          "std_ddof0": 1.0000000000000002,
+          "std_ddof1": 1.0000139119789104,
+          "min": -1.1507292251831465,
+          "max": 2.8006656756633976,
+          "unique_values": 91
+        },
+        "Filling_Time": {
+          "mean": 1.771364990515149e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.3076320604684035,
+          "max": 1.662808268788717,
+          "unique_values": 97
+        },
+        "Plasticizing_Time": {
+          "mean": 6.326303537554104e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.5341627239294433,
+          "max": 4.638509751262802,
+          "unique_values": 470
+        },
+        "Cycle_Time": {
+          "mean": 1.391786778261903e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -4.267866817652327,
+          "max": 1.744651779957047,
+          "unique_values": 371
+        },
+        "Clamp_Close_Time": {
+          "mean": -5.314094971545448e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.6342007151202067,
+          "max": 5.977414742810765,
+          "unique_values": 88
+        },
+        "Cushion_Position": {
+          "mean": -1.0122085660086567e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.3762159788928572,
+          "max": 0.7623277306531357,
+          "unique_values": 68
+        },
+        "Plasticizing_Position": {
+          "mean": 1.6448389197640672e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.9378933654413613,
+          "max": 3.085527559387589,
+          "unique_values": 207
+        },
+        "Clamp_Open_Position": {
+          "mean": 7.591564245064925e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -0.8177855210322926,
+          "max": 1.9164107181121883,
+          "unique_values": 53
+        },
+        "Max_Injection_Speed": {
+          "mean": 0.0,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -2.1310249750086427,
+          "max": 0.9653639675854752,
+          "unique_values": 179
+        },
+        "Max_Screw_RPM": {
+          "mean": -1.2019976721352798e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.1791454382343742,
+          "max": 2.2728733391904576,
+          "unique_values": 28
+        },
+        "Average_Screw_RPM": {
+          "mean": -2.5305214150216418e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.297009448996887,
+          "max": 1.2958618373528483,
+          "unique_values": 83
+        },
+        "Max_Injection_Pressure": {
+          "mean": 2.1509432027683954e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -3.555191585760097,
+          "max": 1.8209095402739088,
+          "unique_values": 236
+        },
+        "Max_Switch_Over_Pressure": {
+          "mean": -3.2896778395281343e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.00001391197891,
+          "min": -0.5632183469898971,
+          "max": 121.2517729937483,
+          "unique_values": 303
+        },
+        "Max_Back_Pressure": {
+          "mean": 5.0610428300432836e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.381248004442557,
+          "max": 2.5550057570253872,
+          "unique_values": 233
+        },
+        "Average_Back_Pressure": {
+          "mean": -1.518312849012985e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.1542676151081206,
+          "max": 2.9611882767697506,
+          "unique_values": 208
+        },
+        "Barrel_Temperature_1": {
+          "mean": -7.591564245064925e-17,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.310547468126909,
+          "max": 0.8235092903704372,
+          "unique_values": 78
+        },
+        "Barrel_Temperature_2": {
+          "mean": 3.9223081932835447e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -2.265639577064478,
+          "max": 1.0166803186117448,
+          "unique_values": 93
+        },
+        "Barrel_Temperature_3": {
+          "mean": -2.910099627274888e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -3.3004130717132147,
+          "max": 0.9220944544813272,
+          "unique_values": 91
+        },
+        "Barrel_Temperature_4": {
+          "mean": -7.0728073549854884e-15,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -3.0886497733106646,
+          "max": 0.9211003660555788,
+          "unique_values": 144
+        },
+        "Barrel_Temperature_5": {
+          "mean": -4.428412476287873e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.00001391197891,
+          "min": -3.0559408370324515,
+          "max": 0.8922099256927304,
+          "unique_values": 106
+        },
+        "Barrel_Temperature_6": {
+          "mean": 1.0248611730837648e-15,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.00001391197891,
+          "min": -3.3015240190590154,
+          "max": 1.1314877221245017,
+          "unique_values": 89
+        },
+        "Hopper_Temperature": {
+          "mean": -3.03662569802597e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -2.4788115901594145,
+          "max": 1.3304486025158226,
+          "unique_values": 329
+        },
+        "Mold_Temperature_3": {
+          "mean": -2.783573556523806e-16,
+          "std_ddof0": 0.9999999999999999,
+          "std_ddof1": 1.00001391197891,
+          "min": -1.2769663330411816,
+          "max": 1.755509881913227,
+          "unique_values": 156
+        },
+        "Mold_Temperature_4": {
+          "mean": 1.391786778261903e-16,
+          "std_ddof0": 1.0,
+          "std_ddof1": 1.0000139119789102,
+          "min": -1.2250830353299604,
+          "max": 2.1850552023662644,
+          "unique_values": 258
+        }
+      },
+      "sha256": "ef9b30014ce4d6671a72f5a4c3f286802b71ff08d52f9d6a551a3f81e6af8c9c",
+      "bytes": 16984495
+    }
+  }
+}

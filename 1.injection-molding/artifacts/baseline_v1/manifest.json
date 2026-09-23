@@ -1,0 +1,23 @@
+{
+  "input_sha256": {
+    "moldset_labeled_cn7.csv": "f870b0c259297f20d503f2e2739966553e5db5ef1deb0cc7513eefa4bbfa2753",
+    "moldset_labeled_rg3.csv": "14aab21476eea02c823ccb00f82800040280d805dbce5a3eb7c11b176a9e5aa4"
+  },
+  "code_sha256": "a4501c0ccd2bcb6856ce8c25198f7e57551ca037f875d374729ee9b1060d7a27",
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "scipy": "1.11.4",
+    "scikit-learn": "1.4.2",
+    "xgboost": "2.1.1",
+    "joblib": "1.3.2"
+  },
+  "status": "complete",
+  "deployment_model": false,
+  "elapsed_seconds": 6.133746898000027,
+  "outer_models": 135,
+  "oof_rows": 71790,
+  "reload_check": "all passed",
+  "raw_hash_check": "passed"
+}

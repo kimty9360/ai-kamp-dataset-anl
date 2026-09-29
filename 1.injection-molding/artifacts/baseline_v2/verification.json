@@ -1,0 +1,20 @@
+{
+  "summary": "기존 5개 설정의 모든 fold 지표·OOF 예측 재현, 추가 6개 설정의 실제 fold 동일 seed 재학습 일치.",
+  "reference_run": "baseline_v1",
+  "raw_hashes": "passed",
+  "splits": "identical",
+  "original_fold_metric_rows": 270,
+  "original_oof_rows": 71790,
+  "metric_and_prediction_tolerance": 1e-12,
+  "new_model_refits": [
+    "extratrees",
+    "extratrees_balanced",
+    "catboost",
+    "catboost_balanced",
+    "lightgbm",
+    "lightgbm_balanced"
+  ],
+  "expected_model_scenario_seed_combinations": 99,
+  "oof_coverage": "passed",
+  "all_outer_model_reload": "all passed"
+}

@@ -1,0 +1,32 @@
+{
+  "cross_product_exact_groups": 0,
+  "retained_features": [
+    "Injection_Time",
+    "Filling_Time",
+    "Plasticizing_Time",
+    "Cycle_Time",
+    "Clamp_Close_Time",
+    "Cushion_Position",
+    "Plasticizing_Position",
+    "Max_Injection_Speed",
+    "Max_Screw_RPM",
+    "Average_Screw_RPM",
+    "Max_Injection_Pressure",
+    "Max_Switch_Over_Pressure",
+    "Max_Back_Pressure",
+    "Average_Back_Pressure",
+    "Barrel_Temperature_1",
+    "Barrel_Temperature_2",
+    "Barrel_Temperature_3",
+    "Barrel_Temperature_4",
+    "Barrel_Temperature_5",
+    "Barrel_Temperature_6",
+    "Hopper_Temperature",
+    "Mold_Temperature_3",
+    "Mold_Temperature_4"
+  ],
+  "unique_patterns": 1197,
+  "minimum_distance_between_unique_patterns": 1.134759157657248,
+  "patterns_with_neighbor_distance_below_1e_6": 0,
+  "distance_space": "Euclidean on provided standardized values; not physical units"
+}

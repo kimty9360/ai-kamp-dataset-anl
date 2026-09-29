@@ -43,13 +43,15 @@ CUDA UMD 표시는 설치된 CUDA Toolkit 버전을 뜻하지 않습니다.
 
 ## 현재 결과
 
-제6회 K-인공지능 제조데이터 분석 경진대회 과제 중 사출성형기 데이터의 첫 baseline 비교까지 진행했습니다.
+제6회 K-인공지능 제조데이터 분석 경진대회 과제 중 사출성형기 데이터의 전체 baseline 6개 계열·11개 설정 비교와 EDA·OOF 오류 분석을 완료했습니다.
 
 - [실행 안내 및 Jupyter 노트북 사용법](1.injection-molding/README.md)
-- [Baseline 결과 보고서](1.injection-molding/artifacts/baseline_v1/report.md)
-- [성능 비교 그래프](1.injection-molding/artifacts/baseline_v1/comparison.png)
-- [실험 설정](1.injection-molding/configs/baseline_v1.json)
-- [검증 프로토콜](1.injection-molding/docs/validation_protocol_baseline_v1.md)
+- [EDA 노트북](1.injection-molding/notebooks/02_eda.ipynb)
+- [EDA 및 오류 분석 보고서](1.injection-molding/artifacts/eda_v1/report.md)
+- [Baseline 결과 보고서](1.injection-molding/artifacts/baseline_v2/report.md)
+- [성능 비교 그래프](1.injection-molding/artifacts/baseline_v2/comparison.png)
+- [실험 설정](1.injection-molding/configs/baseline_v2.json)
+- [검증 프로토콜](1.injection-molding/docs/validation_protocol_baseline_v2.md)
 
 ## GitHub 저장 범위
 

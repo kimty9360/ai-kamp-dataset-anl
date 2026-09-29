@@ -26,3 +26,8 @@ Untitled*.ipynb
 **/artifacts/**/splits.json
 **/artifacts/**/*_rows.csv
 **/artifacts/**/labeled_feature_groups.csv
+
+# Repeated EDA runs and per-record diagnostics
+**/artifacts/**/rows/
+**/artifacts/eda_runs/
+**/artifacts/source_checks/

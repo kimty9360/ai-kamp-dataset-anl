@@ -1,6 +1,6 @@
 # 사출성형기 품질 예측
 
-현재 상태: 첫 그룹 CV baseline 학습 완료. 라벨 의미 미확인으로 class_1 예측 성능만 보고한다.
+현재 상태: Dummy·Logistic·XGBoost·ExtraTrees·CatBoost·LightGBM의 전체 baseline 비교 완료(11개 설정). 라벨 의미 미확인으로 class_1 예측 성능만 보고한다.
 
 ## Jupyter에서 셀 단위로 실행
 
@@ -22,10 +22,10 @@ JupyterLab에서 단일 셀 실행은 Shift+Enter, 전체 실행은 Run → Run 
 
 Windows Anaconda Navigator에서 별도 서버를 실행하면 현재 WSL의 커널 및 패키지를 자동으로 공유하지 않는다. 현재 환경을 그대로 사용하려면 위 WSL 명령 또는 VS Code WSL 경로를 사용한다.
 
-- [baseline 결과 보고서](artifacts/baseline_v1/report.md)
-- [비교 그림](artifacts/baseline_v1/comparison.png)
-- [검증 프로토콜](docs/validation_protocol_baseline_v1.md)
-- [실험 설정](configs/baseline_v1.json)
+- [baseline 결과 보고서](artifacts/baseline_v2/report.md)
+- [비교 그림](artifacts/baseline_v2/comparison.png)
+- [검증 프로토콜](docs/validation_protocol_baseline_v2.md)
+- [실험 설정](configs/baseline_v2.json)
 - [데이터 진단](artifacts/audit/data_audit.md)
 
 상위 `kamp-ai` 프로젝트 루트에서 공통 환경 `kamp-base`를 활성화하고 실행한다.
@@ -34,9 +34,23 @@ Windows Anaconda Navigator에서 별도 서버를 실행하면 현재 WSL의 커
 conda activate kamp-base
 python -m unittest discover -s 1.injection-molding/tests -v
 python 1.injection-molding/scripts/data_audit.py
-python 1.injection-molding/scripts/train_baseline.py --output-dir 1.injection-molding/artifacts/baseline_v1_rerun
-python 1.injection-molding/scripts/report_baseline.py --run-dir 1.injection-molding/artifacts/baseline_v1_rerun
+python 1.injection-molding/scripts/train_baseline.py --config 1.injection-molding/configs/baseline_v2.json --output-dir 1.injection-molding/artifacts/baseline_v2_rerun
+python 1.injection-molding/scripts/verify_baseline.py --run-dir 1.injection-molding/artifacts/baseline_v2_rerun
+python 1.injection-molding/scripts/report_baseline.py --run-dir 1.injection-molding/artifacts/baseline_v2_rerun
 ```
 
 기존 실행 결과는 덮어쓰지 않는다. `dataset/`은 원본이며 수정하지 않는다.
 폴드별 모델은 개발 검증 산출물이며 배포용 최종 모델이 아니다. 전체 데이터 재학습 및 미라벨 제출 예측은 아직 수행하지 않았다.
+
+첫 5개 설정 비교는 [baseline_v1](artifacts/baseline_v1/report.md)에 보존합니다.
+확장 baseline_v2는 baseline_v1의 원본·분할·기존 설정을 그대로 사용합니다.
+GitHub에서 새로 복제한 환경은 기준 split 재생성 방법을 검증 프로토콜에서 확인하세요.
+
+## EDA 및 오류 분석
+
+[02_eda.ipynb](notebooks/02_eda.ipynb)를 `Python (kamp-base)` 커널로 열고 위에서부터 실행합니다. 기본값 `RUN_EDA = False`는 저장된 분석 결과를 읽습니다. `RUN_EDA = True`는 기존 baseline의 OOF 예측으로 분석을 재생성하며 모델을 재학습하지 않습니다. 결과는 `artifacts/eda_runs/`의 새 폴더에 저장됩니다.
+
+- [분석 보고서](artifacts/eda_v1/report.md)
+- [분석 범위와 재현 방법](docs/eda_protocol.md)
+
+공식 원본 다운로드 검증은 선택 사항(`DOWNLOAD_OFFICIAL_SOURCE = True`)이며 기본 실행에는 네트워크가 필요하지 않습니다. 행별 상세 표와 OOF 예측은 로컬 파일이므로 GitHub 복제본에서는 baseline과 EDA를 재실행해야 상세 사례까지 볼 수 있습니다. 보고서의 `nan`은 계산 불가를 뜻하며, RG3 앞 10%에는 class_1이 없어 해당 AUC를 계산할 수 없습니다.

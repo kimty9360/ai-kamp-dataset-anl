@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-23T12:17:34.132281+00:00",
+  "baseline_run": "baseline_v2",
+  "positive_label": 1,
+  "label_semantics": "unconfirmed",
+  "input_sha256": {
+    "moldset_labeled_cn7.csv": "f870b0c259297f20d503f2e2739966553e5db5ef1deb0cc7513eefa4bbfa2753",
+    "moldset_unlabeled_cn7.csv": "110a2d408d6cb8002caf26f50c06d06e42998e067e708788a3e37e9d1769b978",
+    "moldset_labeled_rg3.csv": "14aab21476eea02c823ccb00f82800040280d805dbce5a3eb7c11b176a9e5aa4",
+    "moldset_unlabeled_rg3.csv": "ef9b30014ce4d6671a72f5a4c3f286802b71ff08d52f9d6a551a3f81e6af8c9c"
+  },
+  "oof_sha256": "a1510e592fd8207944f53af56508b4de06a3a04319e90909015d11198283cf3b",
+  "code_sha256": "4a6fad7852589c585f6b8673fa489608d1f220f7ea5088e757031a5d322da204",
+  "baseline_config_sha256": "61f468e799ee8ece8f522bb298af0ff1c4293356b0b4810afa494ee821d8b2ab",
+  "oof_rows_validated": 157938,
+  "individual_class1_rows": 42,
+  "model_fit_performed": false,
+  "oof_join_check": "passed",
+  "inspection_metric_reproduction": "passed",
+  "raw_unchanged": "passed",
+  "exploratory_limit": "Whole-data feature/segment exploration is not independent validation. No causal or time-order inference."
+}

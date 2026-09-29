@@ -1,0 +1,10 @@
+product_group,method,feature_a,feature_b,correlation
+cn7,pearson,Injection_Time,Filling_Time,0.9798204186546592
+cn7,pearson,Mold_Temperature_3,Mold_Temperature_4,0.9780534145435791
+cn7,spearman,Injection_Time,Filling_Time,0.9707635099871287
+cn7,spearman,Injection_Time,Max_Injection_Speed,-0.9646257889382615
+cn7,spearman,Filling_Time,Max_Injection_Speed,-0.963637272645502
+cn7,spearman,Max_Back_Pressure,Average_Back_Pressure,0.9695154785424814
+cn7,spearman,Mold_Temperature_3,Mold_Temperature_4,0.9878432484704075
+rg3,pearson,Mold_Temperature_3,Mold_Temperature_4,0.9736475896479386
+rg3,spearman,Mold_Temperature_3,Mold_Temperature_4,0.9870140298312005

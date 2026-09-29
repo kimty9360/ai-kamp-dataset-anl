@@ -478,7 +478,7 @@ injection-molding-quality/
   - Statsmodels 0.14.2
   - PyArrow 17.0.0
 
-2026-09-23: Dummy·Logistic Regression·XGBoost의 첫 그룹 CV 학습·평가를 완료했다. 설정과 결과는 `configs/baseline_v1.json`, `docs/validation_protocol_baseline_v1.md`, `artifacts/baseline_v1/report.md`에 기록했다. LightGBM·CatBoost는 아직 이 과제에서 학습하지 않았다. 이 결과는 class_1 탐색 평가이며 최종 모델 선정·확률 보정·공식 제출 추론은 미완료다.
+2026-09-23: Dummy·Logistic Regression·XGBoost의 첫 그룹 CV 학습·평가를 완료했다. 설정과 결과는 `configs/baseline_v1.json`, `docs/validation_protocol_baseline_v1.md`, `artifacts/baseline_v1/report.md`에 기록했다. 추가로 ExtraTrees·CatBoost·LightGBM의 기본/가중치 설정까지 같은 분할로 학습했다. 전체 6개 계열·11개 설정 결과는 `artifacts/baseline_v2/report.md`, 검증 규칙은 `docs/validation_protocol_baseline_v2.md`에 기록했다. 이 결과는 class_1 탐색 평가이며 최종 모델 선정·확률 보정·공식 제출 추론은 미완료다.
 
 공통 환경 정의는 상위 프로젝트 루트의 `environment-base.yml`, `requirements-base-lock.txt`에서 관리한다. 과제 제출 시 필요한 환경 정의를 패키지에 포함한다.
 

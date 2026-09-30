@@ -1,0 +1,23 @@
+{
+  "cn7_records": 3974,
+  "period_records": 1209,
+  "flagged_records": 18,
+  "flagged_timestamps": 16,
+  "flagged_quality_labels": {
+    "Y": 18
+  },
+  "flagged_by_date": {
+    "2020-10-29": 10,
+    "2020-10-30": 8
+  },
+  "flag_outside_period": 0,
+  "source_sha256": "f35b9cc904aaa57daf0feb0fb2462f7b7ba740ded8effa6ec61b6b7678496421",
+  "source_unchanged": true,
+  "rule": "CN7 Clamp_Open_Position < 100 AND Injection_Time - Filling_Time > 6; retrospective review flag only",
+  "limitations": [
+    "Not proof of corruption or defect",
+    "No raw upstream data for Oct 29/30: supplied unlabeled_data ends Oct 23",
+    "Sensitivity comparison uses entire labeled sample; not predictive validation",
+    "Average_Screw_RPM scale not corrected; requires channel definition and upstream logs"
+  ]
+}

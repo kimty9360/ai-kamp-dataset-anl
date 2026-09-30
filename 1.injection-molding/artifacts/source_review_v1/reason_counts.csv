@@ -1,0 +1,57 @@
+PART_NAME,PassOrFail,Reason,rows,file,count_unit
+CN7 W/S SIDE MLD'G LH,N,가스,3,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G LH,N,미성형,3,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G LH,N,초기허용불량,10,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G LH,Y,,3349,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G RH,N,가스,10,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G RH,N,미성형,3,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G RH,N,초기허용불량,10,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G RH,Y,,3348,labeled_data.csv,all_rows
+JX1 W/S SIDE MLD'G RH,Y,,2,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, LH",N,가스,3,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, LH",N,미성형,2,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, LH",Y,,623,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",N,가스,19,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",N,미성형,8,labeled_data.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",Y,,601,labeled_data.csv,all_rows
+"SP2 CVR ROOF RACK CTR, RH",Y,,2,labeled_data.csv,all_rows
+CN7 W/S SIDE MLD'G LH,N,가스,3,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G LH,N,미성형,2,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G LH,N,초기허용불량,5,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G LH,Y,,1975,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G RH,N,가스,10,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G RH,N,미성형,3,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G RH,N,초기허용불량,5,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G RH,Y,,1971,labeled_data.csv,unique_id
+JX1 W/S SIDE MLD'G RH,Y,,1,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, LH",N,가스,3,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, LH",N,미성형,2,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, LH",Y,,623,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",N,가스,19,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",N,미성형,8,labeled_data.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",Y,,601,labeled_data.csv,unique_id
+"SP2 CVR ROOF RACK CTR, RH",Y,,1,labeled_data.csv,unique_id
+CN7 W/S SIDE MLD'G LH,0,,703,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G LH,1,가스,3,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G LH,1,미성형,1,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G LH,1,초기허용불량,5,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G RH,0,,695,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G RH,1,가스,10,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G RH,1,미성형,3,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G RH,1,초기허용불량,5,moldset_labeled.csv,all_rows
+"RG3 MOLD'G W/SHLD, LH",0,,591,moldset_labeled.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",0,,566,moldset_labeled.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",1,가스,17,moldset_labeled.csv,all_rows
+"RG3 MOLD'G W/SHLD, RH",1,미성형,8,moldset_labeled.csv,all_rows
+CN7 W/S SIDE MLD'G LH,0,,703,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G LH,1,가스,3,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G LH,1,미성형,1,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G LH,1,초기허용불량,5,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G RH,0,,695,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G RH,1,가스,10,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G RH,1,미성형,3,moldset_labeled.csv,unique_id
+CN7 W/S SIDE MLD'G RH,1,초기허용불량,5,moldset_labeled.csv,unique_id
+"RG3 MOLD'G W/SHLD, LH",0,,591,moldset_labeled.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",0,,566,moldset_labeled.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",1,가스,17,moldset_labeled.csv,unique_id
+"RG3 MOLD'G W/SHLD, RH",1,미성형,8,moldset_labeled.csv,unique_id

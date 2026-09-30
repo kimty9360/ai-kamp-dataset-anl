@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "CN7 default 3974 records / 28 defects / 24 retained process cards",
+    "All retained time plots rendered; each includes every selected record and all defects, without subsampling",
+    "Product, side, date filters; five defects on RG3 LH Nov 4; record detail 36 columns; filtered CSV export",
+    "Frontend Pearson/Spearman match Python reference matrices for both CN7 and RG3",
+    "Single-record and empty cohorts, invalid dates, all temperature channels, column search and hide-normal mode",
+    "Mobile layout fits viewport",
+    "Standalone file:// works offline"
+  ],
+  "max_correlation_error": {
+    "CN7_pearson": 3.2826380502726238e-12,
+    "CN7_spearman": 1.1102230246251565e-16,
+    "RG3_pearson": 1.2403356119961018e-11,
+    "RG3_spearman": 1.1102230246251565e-16
+  },
+  "page_errors": [],
+  "external_requests": 0,
+  "records": 5232,
+  "features": 36
+}

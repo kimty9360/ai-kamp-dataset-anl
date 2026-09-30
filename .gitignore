@@ -31,3 +31,40 @@ Untitled*.ipynb
 **/artifacts/**/rows/
 **/artifacts/eda_runs/
 **/artifacts/source_checks/
+
+**/artifacts/improvement_runs/
+
+# User-provided source archives and reference guide (local only)
+1.injection-molding/04. Dataset_Molding.zip
+1.injection-molding/04.-Guidebook_Molding.pdf
+
+**/artifacts/side_feature_runs/
+
+**/artifacts/extra_model_runs/
+
+**/artifacts/rg3_focus_runs/
+
+# Source-review restart: preserve local data while moving historical work
+1.injection-molding/sources/*
+!1.injection-molding/sources/README.md
+**/archive/**/dataset/*
+!**/archive/**/dataset/README.md
+**/archive/**/*.zip
+**/archive/**/*.pdf
+**/archive/**/*.hwpx
+# Historical notebooks can contain source records and executed user outputs
+**/archive/**/*.ipynb
+# Archive integrity list includes local-only per-record artifact filenames
+1.injection-molding/archive/2026-09-29_tabular_v1/manifest.json
+**/artifacts/source_review_runs/
+
+# Repeated process EDA runs; per-record views are already covered by rows/
+**/artifacts/process_eda_runs/
+
+**/artifacts/correlation_runs/
+
+# Offline dashboards embed source records and stay local
+**/artifacts/dashboard_*/index.html
+
+# Source-record diagnostics stay local
+**/artifacts/**/review_flagged_records.csv

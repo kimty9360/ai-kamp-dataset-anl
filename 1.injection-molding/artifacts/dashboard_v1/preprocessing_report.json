@@ -1,0 +1,147 @@
+{
+  "numeric_missing_cells": 0,
+  "missing_by_column": {
+    "Injection_Time": 0,
+    "Filling_Time": 0,
+    "Plasticizing_Time": 0,
+    "Cycle_Time": 0,
+    "Clamp_Close_Time": 0,
+    "Cushion_Position": 0,
+    "Switch_Over_Position": 0,
+    "Plasticizing_Position": 0,
+    "Clamp_Open_Position": 0,
+    "Max_Injection_Speed": 0,
+    "Max_Screw_RPM": 0,
+    "Average_Screw_RPM": 0,
+    "Max_Injection_Pressure": 0,
+    "Max_Switch_Over_Pressure": 0,
+    "Max_Back_Pressure": 0,
+    "Average_Back_Pressure": 0,
+    "Barrel_Temperature_1": 0,
+    "Barrel_Temperature_2": 0,
+    "Barrel_Temperature_3": 0,
+    "Barrel_Temperature_4": 0,
+    "Barrel_Temperature_5": 0,
+    "Barrel_Temperature_6": 0,
+    "Barrel_Temperature_7": 0,
+    "Hopper_Temperature": 0,
+    "Mold_Temperature_1": 0,
+    "Mold_Temperature_2": 0,
+    "Mold_Temperature_3": 0,
+    "Mold_Temperature_4": 0,
+    "Mold_Temperature_5": 0,
+    "Mold_Temperature_6": 0,
+    "Mold_Temperature_7": 0,
+    "Mold_Temperature_8": 0,
+    "Mold_Temperature_9": 0,
+    "Mold_Temperature_10": 0,
+    "Mold_Temperature_11": 0,
+    "Mold_Temperature_12": 0
+  },
+  "all_products": {
+    "records": 5232,
+    "all_zero": [
+      "Mold_Temperature_1",
+      "Mold_Temperature_2",
+      "Mold_Temperature_5",
+      "Mold_Temperature_6",
+      "Mold_Temperature_7",
+      "Mold_Temperature_8",
+      "Mold_Temperature_9",
+      "Mold_Temperature_10",
+      "Mold_Temperature_11",
+      "Mold_Temperature_12"
+    ],
+    "nonzero_constant": {},
+    "all_missing": [],
+    "default_feature_count": 26
+  },
+  "by_product": {
+    "CN7": {
+      "records": 3974,
+      "all_zero": [
+        "Switch_Over_Position",
+        "Barrel_Temperature_7",
+        "Mold_Temperature_1",
+        "Mold_Temperature_2",
+        "Mold_Temperature_5",
+        "Mold_Temperature_6",
+        "Mold_Temperature_7",
+        "Mold_Temperature_8",
+        "Mold_Temperature_9",
+        "Mold_Temperature_10",
+        "Mold_Temperature_11",
+        "Mold_Temperature_12"
+      ],
+      "nonzero_constant": {},
+      "all_missing": [],
+      "default_feature_count": 24
+    },
+    "JX1": {
+      "records": 1,
+      "all_zero": [
+        "Switch_Over_Position",
+        "Barrel_Temperature_7",
+        "Mold_Temperature_1",
+        "Mold_Temperature_2",
+        "Mold_Temperature_5",
+        "Mold_Temperature_6",
+        "Mold_Temperature_7",
+        "Mold_Temperature_8",
+        "Mold_Temperature_9",
+        "Mold_Temperature_10",
+        "Mold_Temperature_11",
+        "Mold_Temperature_12"
+      ],
+      "nonzero_constant": {},
+      "all_missing": [],
+      "default_feature_count": 24
+    },
+    "RG3": {
+      "records": 1256,
+      "all_zero": [
+        "Barrel_Temperature_7",
+        "Mold_Temperature_1",
+        "Mold_Temperature_2",
+        "Mold_Temperature_5",
+        "Mold_Temperature_6",
+        "Mold_Temperature_7",
+        "Mold_Temperature_8",
+        "Mold_Temperature_9",
+        "Mold_Temperature_10",
+        "Mold_Temperature_11",
+        "Mold_Temperature_12"
+      ],
+      "nonzero_constant": {
+        "Clamp_Open_Position": 4.630000114440918
+      },
+      "all_missing": [],
+      "default_feature_count": 24
+    },
+    "SP2": {
+      "records": 1,
+      "all_zero": [
+        "Barrel_Temperature_1",
+        "Hopper_Temperature",
+        "Mold_Temperature_1",
+        "Mold_Temperature_2",
+        "Mold_Temperature_3",
+        "Mold_Temperature_4",
+        "Mold_Temperature_5",
+        "Mold_Temperature_6",
+        "Mold_Temperature_7",
+        "Mold_Temperature_8",
+        "Mold_Temperature_9",
+        "Mold_Temperature_10",
+        "Mold_Temperature_11",
+        "Mold_Temperature_12"
+      ],
+      "nonzero_constant": {},
+      "all_missing": [],
+      "default_feature_count": 22
+    }
+  },
+  "policy": "Exact ID duplicates removed; raw units and outliers retained. Display/export excludes all-zero, fully missing and constant columns based on selected product/side across all dates. One-row cohorts are not classified as nonzero constant. Source preserved.",
+  "review_flag_count": 18,
+  "review_rule": "CN7 on 2020-10-29/30, Clamp_Open_Position < 100 and Injection_Time - Filling_Time > 6; retrospective review flag, not a defect label"
+}

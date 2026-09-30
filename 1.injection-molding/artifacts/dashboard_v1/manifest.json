@@ -1,0 +1,35 @@
+{
+  "source_sha256": "f35b9cc904aaa57daf0feb0fb2462f7b7ba740ded8effa6ec61b6b7678496421",
+  "raw_rows": 7996,
+  "unique_rows": 5232,
+  "duplicate_rows_removed": 2764,
+  "process_features": 36,
+  "counts": {
+    "CN7": {
+      "records": 3974,
+      "defects": 28
+    },
+    "JX1": {
+      "records": 1,
+      "defects": 0
+    },
+    "RG3": {
+      "records": 1256,
+      "defects": 32
+    },
+    "SP2": {
+      "records": 1,
+      "defects": 0
+    }
+  },
+  "offline": true,
+  "embedded_row_data": true,
+  "models_trained": false,
+  "source_unchanged": true,
+  "build_sources_sha256": {
+    "scripts/build_dashboard.py": "c71a7a0365617cc1fa18f73cadb40f98fc1ad7932417320dbe17e4c421986e1c",
+    "dashboard/template.html": "a0803554890f9e60f776a04d9ce717519b3b01ddb4b9495730d19d78055502f9",
+    "dashboard/style.css": "9a29062e8e1889260b8f419eb7e56630c3ad7c538920eacbc5d32d5c3484fcd6",
+    "dashboard/app.js": "b2bbafa624535f05fb8da81fe90e22ede9fff94a0d85680c7a5b5ddae2a24c35"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "windows": [
+    5,
+    15
+  ],
+  "pandas_comparison": "passed",
+  "gap_and_missing_reset": "passed",
+  "synchronized_four_time_axes": "passed",
+  "single_side_and_off_mode": "passed",
+  "page_errors": []
+}

@@ -1,0 +1,793 @@
+cohort,method,feature,correlation_with_defect,records,defects,note
+all_products_reference,pearson,Injection_Time,-0.06676274880848489,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Filling_Time,-0.056108009421885444,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Plasticizing_Time,-0.07256464922149594,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Cycle_Time,0.09120445842214195,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Clamp_Close_Time,-0.05968183893192507,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Cushion_Position,0.004324402054148311,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Switch_Over_Position,-0.0029905486264065364,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Plasticizing_Position,-0.07107894718284861,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Clamp_Open_Position,-0.07286807441212997,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Max_Injection_Speed,0.07000393429308634,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Max_Screw_RPM,0.050748402766550814,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Average_Screw_RPM,0.06292087557051645,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Max_Injection_Pressure,0.03467366291653265,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Max_Switch_Over_Pressure,-0.05842280626036417,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Max_Back_Pressure,0.09617243124408949,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Average_Back_Pressure,0.06749105740791951,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_1,0.05312780776095904,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_2,0.06923192883694589,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_3,0.07215884618488846,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_4,0.06392723837390396,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_5,0.07500837979781928,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_6,0.0701437353462964,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Barrel_Temperature_7,-0.001489203358813347,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Hopper_Temperature,-0.038702358168009265,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_1,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_2,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_3,0.049486384598869365,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_4,0.06520206415729492,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_5,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_6,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_7,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_8,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_9,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_10,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_11,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,pearson,Mold_Temperature_12,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Injection_Time,-0.03393751134250483,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Filling_Time,-0.0333566841497925,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Plasticizing_Time,-0.04863454042485474,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Cycle_Time,0.07745850185523635,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Clamp_Close_Time,-0.01542601662245408,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Cushion_Position,0.01926125713248384,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Switch_Over_Position,-0.003331233593445941,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Plasticizing_Position,0.0008888604621780831,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Clamp_Open_Position,-0.07311122048218875,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Max_Injection_Speed,0.03889376504774555,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Max_Screw_RPM,0.0559957095323005,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Average_Screw_RPM,0.036502863076929765,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Max_Injection_Pressure,0.06641916321979106,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Max_Switch_Over_Pressure,-0.014524085510895613,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Max_Back_Pressure,0.05078337943924775,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Average_Back_Pressure,0.05833104846347378,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_1,0.04792700374268786,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_2,0.0418822199235825,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_3,0.06981321904470195,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_4,0.06444817773295584,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_5,0.07302612483438345,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_6,0.04716752171372055,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Barrel_Temperature_7,-0.00148920335881335,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Hopper_Temperature,-0.06700901248430102,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_1,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_2,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_3,0.03488978224901088,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_4,0.0401461539544391,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_5,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_6,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_7,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_8,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_9,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_10,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_11,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+all_products_reference,spearman,Mold_Temperature_12,,5232,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Injection_Time,-0.0667752432094611,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Filling_Time,-0.05611231776975826,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Plasticizing_Time,-0.07268813590605672,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Cycle_Time,0.0918277295451221,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Clamp_Close_Time,-0.06094991878985663,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Cushion_Position,0.06995788099779152,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Switch_Over_Position,-0.002980407493224362,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Plasticizing_Position,-0.07110036983067913,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Clamp_Open_Position,-0.07289977338154259,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Max_Injection_Speed,0.069976371154315,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Max_Screw_RPM,0.053033530113490296,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Average_Screw_RPM,0.06288913105266153,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Max_Injection_Pressure,0.03722062032642129,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Max_Switch_Over_Pressure,-0.05843209935337379,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Max_Back_Pressure,0.09629258985259795,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Average_Back_Pressure,0.0690461715844007,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_1,0.06782229988763816,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_2,0.06941383225856197,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_3,0.07234139163983251,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_4,0.06450980298386333,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_5,0.07520892734016363,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_6,0.07207767914631935,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Barrel_Temperature_7,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Hopper_Temperature,-0.043488173119876974,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_1,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_2,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_3,0.05073157868627507,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_4,0.06654301608979707,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_5,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_6,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_7,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_8,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_9,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_10,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_11,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,pearson,Mold_Temperature_12,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Injection_Time,-0.03391900716711797,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Filling_Time,-0.03337124380849216,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Plasticizing_Time,-0.048662558262319563,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Cycle_Time,0.07757252855901567,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Clamp_Close_Time,-0.015511571007403833,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Cushion_Position,0.01927264481441364,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Switch_Over_Position,-0.0029804074932243446,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Plasticizing_Position,0.0008941397647568842,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Clamp_Open_Position,-0.07313600049562033,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Max_Injection_Speed,0.038851921866759585,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Max_Screw_RPM,0.055959360696316095,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Average_Screw_RPM,0.03646122421578485,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Max_Injection_Pressure,0.06645819614887201,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Max_Switch_Over_Pressure,-0.014527710888897137,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Max_Back_Pressure,0.05076744878845225,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Average_Back_Pressure,0.058293274261149455,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_1,0.047883231323838045,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_2,0.04183494712474923,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_3,0.06978210903359973,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_4,0.06443058238481866,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_5,0.07306844199784658,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_6,0.04719496326981174,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Barrel_Temperature_7,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Hopper_Temperature,-0.06711899771948528,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_1,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_2,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_3,0.034838505331992745,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_4,0.04010979449118817,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_5,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_6,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_7,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_8,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_9,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_10,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_11,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+s14_pooled_reference,spearman,Mold_Temperature_12,,5230,60,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Injection_Time,0.2580793916057942,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Filling_Time,0.34093829346681503,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Plasticizing_Time,-0.010312851114871216,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Cycle_Time,0.0999186412383116,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Clamp_Close_Time,0.023671656745561237,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Cushion_Position,-0.007309116771361325,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Switch_Over_Position,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Plasticizing_Position,0.04483880743506916,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Clamp_Open_Position,0.005682096253459077,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Max_Injection_Speed,-0.19563015459648864,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Max_Screw_RPM,0.029150770573717698,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Average_Screw_RPM,0.0847170893806371,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Max_Injection_Pressure,0.030963963713419147,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Max_Switch_Over_Pressure,0.24757391001019935,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Max_Back_Pressure,0.17319688123395202,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Average_Back_Pressure,0.07112166338782537,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_1,0.003653154929586065,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_2,0.001585315206372952,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_3,0.012332649732253976,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_4,0.013245379743897206,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_5,0.01202070609940149,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_6,-0.010500762626450093,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Barrel_Temperature_7,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Hopper_Temperature,-0.02241665546037051,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_1,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_2,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_3,0.0706066138494703,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_4,0.09408356507152466,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_5,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_6,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_7,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_8,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_9,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_10,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_11,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson,Mold_Temperature_12,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Injection_Time,0.038062813255216425,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Filling_Time,0.03996476882223979,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Plasticizing_Time,2.3609655889038604e-05,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Cycle_Time,0.029239861284589917,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Clamp_Close_Time,0.10391551652458561,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Cushion_Position,-0.07779362120610156,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Switch_Over_Position,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Plasticizing_Position,0.11731674856834226,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Clamp_Open_Position,0.005682096253459129,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Max_Injection_Speed,-0.02674860488112802,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Max_Screw_RPM,0.024486604253292837,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Average_Screw_RPM,0.07387181470201659,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Max_Injection_Pressure,-0.007915077786484821,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Max_Switch_Over_Pressure,0.0788214830779967,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Max_Back_Pressure,-0.02398235138812319,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Average_Back_Pressure,-0.020968259942698297,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_1,-0.010319267644229066,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_2,-0.02578602566807057,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_3,0.0351262306149901,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_4,0.01949498020448972,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_5,0.03065505405085901,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_6,-0.0201494342197527,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Barrel_Temperature_7,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Hopper_Temperature,-0.03926896040922689,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_1,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_2,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_3,0.03746141240601939,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_4,0.039423652343214606,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_5,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_6,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_7,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_8,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_9,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_10,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_11,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,spearman,Mold_Temperature_12,,3974,28,descriptive only; binary-target Pearson equals point-biserial
+cn7,pearson_within_day_side,Injection_Time,0.25760504635031056,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Filling_Time,0.34216606511690845,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Plasticizing_Time,-0.022360108051609463,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Cycle_Time,0.10065659844310716,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Clamp_Close_Time,0.015239409426801999,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Cushion_Position,0.0028391706564378956,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Switch_Over_Position,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Plasticizing_Position,0.0005754544072742919,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Clamp_Open_Position,-3.2088403088811625e-32,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Max_Injection_Speed,-0.20922896847886774,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Max_Screw_RPM,0.03176156145936987,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Average_Screw_RPM,0.010712225167177737,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Max_Injection_Pressure,0.038829788163024494,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Max_Switch_Over_Pressure,0.2478210778106985,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Max_Back_Pressure,0.19870793681220722,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Average_Back_Pressure,0.07303161719612046,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_1,-0.0026578283209157884,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_2,-0.00342377204302639,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_3,0.006097530990814787,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_4,0.008369309715737024,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_5,0.007323177070183623,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_6,-0.014318521241073435,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Barrel_Temperature_7,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Hopper_Temperature,-0.02339496066269438,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_1,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_2,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_3,-0.05507337461300282,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_4,-0.05266428515204989,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_5,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_6,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_7,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_8,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_9,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_10,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_11,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7,pearson_within_day_side,Mold_Temperature_12,,3974,28,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson,Injection_Time,0.3158674798271417,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Filling_Time,0.40690360069159165,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Plasticizing_Time,-0.025219086645284515,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Cycle_Time,0.12600484655460856,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Clamp_Close_Time,0.020622137288489634,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Cushion_Position,-0.0006612269093456097,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Switch_Over_Position,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Plasticizing_Position,0.03114927119433979,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Clamp_Open_Position,0.00452645397538307,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Max_Injection_Speed,-0.23747872060583977,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Max_Screw_RPM,0.013254654842950858,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Average_Screw_RPM,0.06235116095267897,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Max_Injection_Pressure,0.04508603674765403,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Max_Switch_Over_Pressure,0.3006237970597848,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Max_Back_Pressure,0.2219548587983919,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Average_Back_Pressure,0.09073902840815304,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_1,0.003800329704960339,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_2,0.00047661227335081796,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_3,0.01126925035365225,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_4,0.01793196405145719,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_5,0.015450611966542639,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_6,-0.02157533679549346,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Barrel_Temperature_7,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Hopper_Temperature,-0.037510348605337016,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_1,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_2,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_3,0.013659842671825921,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_4,0.030689052968387635,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_5,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_6,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_7,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_8,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_9,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_10,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_11,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson,Mold_Temperature_12,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Injection_Time,0.03578576858555974,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Filling_Time,0.0369265959080442,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Plasticizing_Time,-0.03018525265363803,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Cycle_Time,0.02276527897222311,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Clamp_Close_Time,0.06318527163063645,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Cushion_Position,-0.04829674885247289,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Switch_Over_Position,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Plasticizing_Position,0.08696921758478851,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Clamp_Open_Position,0.004526453975383107,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Max_Injection_Speed,-0.03658796290751481,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Max_Screw_RPM,0.005960530865980707,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Average_Screw_RPM,0.049762102037731876,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Max_Injection_Pressure,0.026007702956762142,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Max_Switch_Over_Pressure,0.09517752266439951,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Max_Back_Pressure,0.018336852034338737,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Average_Back_Pressure,0.024805586337081107,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_1,-0.006946839421974766,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_2,-0.022614811878671273,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_3,0.02716290652843331,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_4,0.031657573738668524,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_5,0.040769525946305424,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_6,-0.034873519058447044,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Barrel_Temperature_7,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Hopper_Temperature,-0.0575477489988537,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_1,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_2,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_3,-0.007360908116866405,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_4,-0.0043919679906973905,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_5,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_6,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_7,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_8,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_9,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_10,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_11,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,spearman,Mold_Temperature_12,,1985,10,descriptive only; binary-target Pearson equals point-biserial
+cn7_lh,pearson_within_day_side,Injection_Time,0.3118123366442678,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Filling_Time,0.406605313300964,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Plasticizing_Time,-0.02930530834240603,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Cycle_Time,0.12416884473927915,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Clamp_Close_Time,0.01508210361591755,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Cushion_Position,0.0031379450614494,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Switch_Over_Position,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Plasticizing_Position,0.0007682307281826635,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Clamp_Open_Position,9.771014001794528e-33,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Max_Injection_Speed,-0.24900599555227118,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Max_Screw_RPM,0.025566207094036255,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Average_Screw_RPM,0.002694735723815812,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Max_Injection_Pressure,0.047935527741308194,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Max_Switch_Over_Pressure,0.2990264124492447,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Max_Back_Pressure,0.23611527349679973,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Average_Back_Pressure,0.08974410593017862,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_1,-0.000814278139135285,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_2,-0.0036747508014766377,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_3,0.006532534088020048,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_4,0.01377653698826043,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_5,0.011753718545825229,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_6,-0.02494422589631334,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Barrel_Temperature_7,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Hopper_Temperature,-0.032951140360242895,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_1,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_2,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_3,-0.06381186584540263,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_4,-0.06095242250345969,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_5,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_6,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_7,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_8,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_9,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_10,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_11,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_lh,pearson_within_day_side,Mold_Temperature_12,,1985,10,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson,Injection_Time,0.22027135975868364,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Filling_Time,0.2984416764741931,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Plasticizing_Time,-7.609922612584581e-05,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Cycle_Time,0.0827901935876173,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Clamp_Close_Time,0.026178205524187075,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Cushion_Position,-0.01210944699798824,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Switch_Over_Position,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Plasticizing_Position,0.05469241126688461,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Clamp_Open_Position,0.006793131838739445,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Max_Injection_Speed,-0.1685277956387439,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Max_Screw_RPM,0.041573583189892925,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Average_Screw_RPM,0.1030017517234425,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Max_Injection_Pressure,0.02144061306796496,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Max_Switch_Over_Pressure,0.21329597027148514,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Max_Back_Pressure,0.14090022104231137,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Average_Back_Pressure,0.05872301817409623,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_1,0.003868871378300079,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_2,0.0026343090247702232,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_3,0.013429851387694333,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_4,0.01044481394081318,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_5,0.010085202405181539,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_6,-0.0026796396393428622,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Barrel_Temperature_7,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Hopper_Temperature,-0.011933118665812235,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_1,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_2,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_3,0.11442247030741177,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_4,0.1430780154256482,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_5,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_6,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_7,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_8,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_9,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_10,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_11,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson,Mold_Temperature_12,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Injection_Time,0.04042397227120204,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Filling_Time,0.04300410086075462,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Plasticizing_Time,0.022517904191195953,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Cycle_Time,0.03458113330204738,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Clamp_Close_Time,0.13620180514998945,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Cushion_Position,-0.10123656979783736,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Switch_Over_Position,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Plasticizing_Position,0.14210911451073194,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Clamp_Open_Position,0.00679313183873942,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Max_Injection_Speed,-0.019952147677734528,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Max_Screw_RPM,0.03879770817328348,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Average_Screw_RPM,0.09324435496279622,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Max_Injection_Pressure,-0.03336569042387507,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Max_Switch_Over_Pressure,0.06813249498303613,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Max_Back_Pressure,-0.055889148303146036,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Average_Back_Pressure,-0.05540992517305251,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_1,-0.01297794266555207,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_2,-0.02857848856350923,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_3,0.041758343985857156,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_4,0.010863266664760916,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_5,0.02372794793616261,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_6,-0.009501817991831188,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Barrel_Temperature_7,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Hopper_Temperature,-0.02629775198083703,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_1,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_2,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_3,0.07160007563813646,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_4,0.07285328634769292,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_5,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_6,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_7,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_8,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_9,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_10,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_11,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,spearman,Mold_Temperature_12,,1989,18,descriptive only; binary-target Pearson equals point-biserial
+cn7_rh,pearson_within_day_side,Injection_Time,0.22142317315518698,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Filling_Time,0.29903501043349434,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Plasticizing_Time,-0.017651803097325572,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Cycle_Time,0.08511380039867224,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Clamp_Close_Time,0.015429584555827604,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Cushion_Position,0.0026512921342331597,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Switch_Over_Position,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Plasticizing_Position,0.0004472256054147588,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Clamp_Open_Position,-9.375734426514495e-33,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Max_Injection_Speed,-0.18269741368794606,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Max_Screw_RPM,0.03695551136075672,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Average_Screw_RPM,0.016926148684856406,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Max_Injection_Pressure,0.032846841495251834,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Max_Switch_Over_Pressure,0.21351477974009878,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Max_Back_Pressure,0.17374101513690984,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Average_Back_Pressure,0.061996607543308185,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_1,-0.003942646696837938,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_2,-0.0032723456158533486,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_3,0.005834471945599271,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_4,0.004670678065762896,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_5,0.004320970835118974,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_6,-0.00694271937073646,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Barrel_Temperature_7,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Hopper_Temperature,-0.016955486621431447,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_1,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_2,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_3,-0.049329735916666076,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_4,-0.04722232277820891,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_5,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_6,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_7,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_8,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_9,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_10,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_11,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+cn7_rh,pearson_within_day_side,Mold_Temperature_12,,1989,18,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson,Injection_Time,0.12285013393692687,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Filling_Time,0.05395349390818378,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Plasticizing_Time,0.1076622745026059,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Cycle_Time,0.05565853469557887,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Clamp_Close_Time,-0.022476374450563413,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Cushion_Position,-0.015397106564168575,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Switch_Over_Position,-0.009139282703670624,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Plasticizing_Position,0.039483705765681665,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Clamp_Open_Position,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Max_Injection_Speed,-0.10351675666471895,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Max_Screw_RPM,0.009729913130316455,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Average_Screw_RPM,-0.10973502925349557,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Max_Injection_Pressure,0.08747203957148342,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Max_Switch_Over_Pressure,0.09853264396837727,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Max_Back_Pressure,0.09458798747061722,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Average_Back_Pressure,0.07318089311340907,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_1,-0.027042329506853934,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_2,-0.017884600797083722,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_3,-0.010161036177990435,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_4,0.007197252059137698,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_5,0.048129991793056034,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_6,0.011161392384328886,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Barrel_Temperature_7,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Hopper_Temperature,-0.054263181792798806,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_1,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_2,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_3,-0.015742317337340606,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_4,0.008891032810584168,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_5,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_6,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_7,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_8,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_9,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_10,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_11,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson,Mold_Temperature_12,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Injection_Time,0.10021632514562329,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Filling_Time,0.0454569816078819,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Plasticizing_Time,0.07094488563483246,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Cycle_Time,0.04492932933889653,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Clamp_Close_Time,-0.02013959523467172,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Cushion_Position,-0.009087823416285857,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Switch_Over_Position,-0.009139282703670681,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Plasticizing_Position,0.030907518641113643,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Clamp_Open_Position,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Max_Injection_Speed,-0.0454040169144435,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Max_Screw_RPM,0.014571055063090293,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Average_Screw_RPM,-0.036173000182419535,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Max_Injection_Pressure,0.04616319651758993,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Max_Switch_Over_Pressure,0.053813043574896004,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Max_Back_Pressure,0.047253227019565296,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Average_Back_Pressure,0.04749940056151463,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_1,-0.02595791724519374,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_2,-0.015125989447923715,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_3,-0.011900976409721997,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_4,0.010205284827508076,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_5,0.05111173602201193,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_6,0.015207449237207746,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Barrel_Temperature_7,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Hopper_Temperature,-0.05354422677754729,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_1,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_2,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_3,-0.021020277323106323,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_4,0.006924503092181869,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_5,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_6,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_7,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_8,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_9,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_10,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_11,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,spearman,Mold_Temperature_12,,1256,32,descriptive only; binary-target Pearson equals point-biserial
+rg3,pearson_within_day_side,Injection_Time,0.05271469686816636,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Filling_Time,-0.007453269863338623,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Plasticizing_Time,0.0644968025384927,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Cycle_Time,0.046325911405479495,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Clamp_Close_Time,0.034866013284088115,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Cushion_Position,0.025993178466208695,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Switch_Over_Position,-0.009155537832566181,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Plasticizing_Position,-0.008674851206429968,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Clamp_Open_Position,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Max_Injection_Speed,-0.011139238687040665,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Max_Screw_RPM,-0.01835930077923914,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Average_Screw_RPM,0.027706722933133962,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Max_Injection_Pressure,0.006733985982873869,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Max_Switch_Over_Pressure,0.02260384753646686,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Max_Back_Pressure,0.014710126728715972,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Average_Back_Pressure,0.006504561693553215,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_1,-0.023082736437843438,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_2,-0.00913118834561714,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_3,-0.017232627279674912,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_4,0.01068710367838442,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_5,0.04773964561721484,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_6,0.0034953546375779787,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Barrel_Temperature_7,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Hopper_Temperature,-0.03112888969171364,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_1,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_2,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_3,-0.024217028738399045,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_4,-0.022106557182623537,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_5,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_6,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_7,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_8,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_9,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_10,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_11,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3,pearson_within_day_side,Mold_Temperature_12,,1256,32,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson,Injection_Time,0.3445471894338115,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Filling_Time,0.15161909834516724,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Plasticizing_Time,0.2912914313414184,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Cycle_Time,0.009390380324665867,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Clamp_Close_Time,-0.14379722244063314,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Cushion_Position,-0.07567821209932962,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Switch_Over_Position,-0.0050637098193063185,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Plasticizing_Position,0.17365747228306416,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Clamp_Open_Position,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Max_Injection_Speed,-0.3124572978823913,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Max_Screw_RPM,0.006175907538707805,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Average_Screw_RPM,-0.35804171577098404,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Max_Injection_Pressure,0.26006718987092914,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Max_Switch_Over_Pressure,0.28669042740193945,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Max_Back_Pressure,0.28522999955858824,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Average_Back_Pressure,0.2114018060508848,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_1,-0.03616958615652933,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_2,-0.052260047238895664,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_3,0.00982669717385784,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_4,0.06069008158228487,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_5,-0.01954223610658735,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_6,0.038070835930325064,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Barrel_Temperature_7,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Hopper_Temperature,-0.14206365523111034,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_1,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_2,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_3,-0.01393509236086079,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_4,0.059532754785552505,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_5,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_6,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_7,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_8,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_9,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_10,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_11,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson,Mold_Temperature_12,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Injection_Time,0.3271237466380502,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Filling_Time,0.12700747640978852,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Plasticizing_Time,0.14894110590614526,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Cycle_Time,0.03298036679855816,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Clamp_Close_Time,-0.1337363257064835,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Cushion_Position,-0.06673890621992215,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Switch_Over_Position,-0.005063709819306312,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Plasticizing_Position,0.13780259147939627,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Clamp_Open_Position,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Max_Injection_Speed,-0.14868314522523027,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Max_Screw_RPM,0.010841214510391653,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Average_Screw_RPM,-0.16225789963614545,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Max_Injection_Pressure,0.1488582980761332,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Max_Switch_Over_Pressure,0.1465137539780163,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Max_Back_Pressure,0.14581849299394786,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Average_Back_Pressure,0.14555924850083396,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_1,-0.04484613553930387,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_2,-0.054255779011582274,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_3,0.005243881201080075,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_4,0.06173935528525143,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_5,-0.01164816464450801,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_6,0.039880779009295146,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Barrel_Temperature_7,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Hopper_Temperature,-0.1234950770714795,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_1,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_2,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_3,-0.024705677861952786,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_4,0.06455383624976924,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_5,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_6,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_7,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_8,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_9,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_10,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_11,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,spearman,Mold_Temperature_12,,628,5,descriptive only; binary-target Pearson equals point-biserial
+rg3_lh,pearson_within_day_side,Injection_Time,0.05285298140955465,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Filling_Time,-0.04079609303102309,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Plasticizing_Time,0.043091211007906326,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Cycle_Time,-0.028950372349611977,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Clamp_Close_Time,4.243058120439236e-31,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Cushion_Position,0.030032052085548544,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Switch_Over_Position,-6.18829187196466e-34,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Plasticizing_Position,-4.940025294374881e-06,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Clamp_Open_Position,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Max_Injection_Speed,0.022958838133752553,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Max_Screw_RPM,-0.09572352567881556,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Average_Screw_RPM,-2.1424515021117734e-30,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Max_Injection_Pressure,-0.0042712504023809635,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Max_Switch_Over_Pressure,-0.005317001973462198,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Max_Back_Pressure,-0.011799408284911446,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Average_Back_Pressure,-0.02107181883304876,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_1,-0.01820716485465879,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_2,-0.03243581926243218,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_3,-0.006753366370857849,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_4,0.07852835395229078,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_5,-0.018333070151502113,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_6,0.025777189719471426,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Barrel_Temperature_7,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Hopper_Temperature,-0.0037513051387987957,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_1,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_2,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_3,0.011022879379825318,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_4,0.013902617239457299,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_5,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_6,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_7,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_8,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_9,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_10,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_11,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_lh,pearson_within_day_side,Mold_Temperature_12,,628,5,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson,Injection_Time,0.040555404652274835,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Filling_Time,0.017239694746718603,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Plasticizing_Time,0.039533331417221325,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Cycle_Time,0.08237062478601294,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Clamp_Close_Time,0.028082992612427915,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Cushion_Position,0.009549219261741937,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Switch_Over_Position,-0.01198043196776435,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Plasticizing_Position,-0.015065053675088683,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Clamp_Open_Position,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Max_Injection_Speed,-0.0245250301743295,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Max_Screw_RPM,0.01224022062076204,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Average_Screw_RPM,-0.013615918606476327,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Max_Injection_Pressure,0.022449249334067774,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Max_Switch_Over_Pressure,0.027891359121817172,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Max_Back_Pressure,0.022598607425485178,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Average_Back_Pressure,0.021272759532261248,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_1,-0.02640616195197307,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_2,-0.004682142429206658,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_3,-0.020625415133375388,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_4,-0.015389104485867526,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_5,0.08325249126712486,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_6,0.0005273289745475214,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Barrel_Temperature_7,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Hopper_Temperature,-0.02208356095774611,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_1,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_2,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_3,-0.018415871474484636,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_4,-0.012487250253053504,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_5,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_6,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_7,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_8,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_9,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_10,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_11,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson,Mold_Temperature_12,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Injection_Time,0.012448001519552629,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Filling_Time,0.014860505365754957,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Plasticizing_Time,0.04474830352439133,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Cycle_Time,0.0553658748240374,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Clamp_Close_Time,0.027305423508775458,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Cushion_Position,0.01541730410236787,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Switch_Over_Position,-0.011980431967764263,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Plasticizing_Position,-0.012381503075104234,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Clamp_Open_Position,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Max_Injection_Speed,-0.0054636552063464265,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Max_Screw_RPM,0.01766563105831201,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Average_Screw_RPM,0.014891859191207996,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Max_Injection_Pressure,0.006533030595169212,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Max_Switch_Over_Pressure,0.019477484441543565,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Max_Back_Pressure,0.009514760833777065,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Average_Back_Pressure,0.009934910223757967,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_1,-0.02082128385659077,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_2,0.0005861476544849717,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_3,-0.021246664709941916,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_4,-0.011162581458378566,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_5,0.08438018223598608,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_6,0.005890401642697067,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Barrel_Temperature_7,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Hopper_Temperature,-0.029058288116544692,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_1,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_2,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_3,-0.02195244775893254,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_4,-0.017872279055689444,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_5,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_6,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_7,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_8,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_9,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_10,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_11,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,spearman,Mold_Temperature_12,,628,27,descriptive only; binary-target Pearson equals point-biserial
+rg3_rh,pearson_within_day_side,Injection_Time,0.05868045435729188,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Filling_Time,0.005185409815722253,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Plasticizing_Time,0.08091142722050537,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Cycle_Time,0.0824338964147157,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Clamp_Close_Time,0.05325507855843981,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Cushion_Position,0.027427364015754147,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Switch_Over_Position,-0.013984360143079447,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Plasticizing_Position,-0.013239263486324399,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Clamp_Open_Position,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Max_Injection_Speed,-0.026015309379303204,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Max_Screw_RPM,0.011013472312639086,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Average_Screw_RPM,0.0423198286072576,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Max_Injection_Pressure,0.011918304201490787,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Max_Switch_Over_Pressure,0.03651709344691493,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Max_Back_Pressure,0.026980207030787438,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Average_Back_Pressure,0.0182251350882249,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_1,-0.02782749387738661,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_2,-0.0007119062174531873,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_3,-0.02353519145661618,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_4,-0.015719337394284445,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_5,0.08039598220703621,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_6,-0.00517827408835985,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Barrel_Temperature_7,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Hopper_Temperature,-0.04601510282261194,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_1,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_2,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_3,-0.041485482397655836,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_4,-0.03943875176296864,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_5,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_6,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_7,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_8,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_9,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_10,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_11,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"
+rg3_rh,pearson_within_day_side,Mold_Temperature_12,,628,27,"Correlation of residuals after date+side mean subtraction; exploratory, not causal or predictive validation"

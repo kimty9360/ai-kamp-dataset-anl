@@ -1,0 +1,88 @@
+{
+  "source_sha256": "f35b9cc904aaa57daf0feb0fb2462f7b7ba740ded8effa6ec61b6b7678496421",
+  "script_sha256": "d70b566d777aa0520a8b6e8e63d66d80f4190f0fcac102008367638b71134d2c",
+  "middle_all_cells_exact_match": true,
+  "middle_source_positions_zero_based": [
+    [
+      0,
+      1210
+    ],
+    [
+      2393,
+      2606
+    ],
+    [
+      1211,
+      2392
+    ]
+  ],
+  "middle_original_process_values_unchanged": true,
+  "added_part_number_lookup": {
+    "CN7 W/S SIDE MLD'G LH": "86131AA000",
+    "CN7 W/S SIDE MLD'G RH": "86141AA000",
+    "RG3 MOLD'G W/SHLD, LH": "86131T1000",
+    "RG3 MOLD'G W/SHLD, RH": "86141T1000"
+  },
+  "removed_columns": {
+    "cn7": [
+      "_id",
+      "TimeStamp",
+      "PART_FACT_PLAN_DATE",
+      "PART_FACT_SERIAL",
+      "PART_NO",
+      "PART_NAME",
+      "EQUIP_CD",
+      "EQUIP_NAME",
+      "Reason",
+      "Switch_Over_Position",
+      "Barrel_Temperature_7",
+      "Mold_Temperature_1",
+      "Mold_Temperature_2",
+      "Mold_Temperature_5",
+      "Mold_Temperature_6",
+      "Mold_Temperature_7",
+      "Mold_Temperature_8",
+      "Mold_Temperature_9",
+      "Mold_Temperature_10",
+      "Mold_Temperature_11",
+      "Mold_Temperature_12"
+    ],
+    "rg3": [
+      "_id",
+      "TimeStamp",
+      "PART_FACT_PLAN_DATE",
+      "PART_FACT_SERIAL",
+      "PART_NO",
+      "PART_NAME",
+      "EQUIP_CD",
+      "EQUIP_NAME",
+      "Reason",
+      "Switch_Over_Position",
+      "Barrel_Temperature_7",
+      "Mold_Temperature_1",
+      "Mold_Temperature_2",
+      "Mold_Temperature_5",
+      "Mold_Temperature_6",
+      "Mold_Temperature_7",
+      "Mold_Temperature_8",
+      "Mold_Temperature_9",
+      "Mold_Temperature_10",
+      "Mold_Temperature_11",
+      "Mold_Temperature_12"
+    ]
+  },
+  "label_mapping": {
+    "Y": 0,
+    "N": 1
+  },
+  "standardization": "(x - mean) / population_std (ddof=0); constant column scale=1",
+  "float_tolerance": 1e-10,
+  "all_checks_passed": true,
+  "source_unchanged": true,
+  "limitations": [
+    "Equivalent reconstruction does not prove the original author used these exact code steps.",
+    "Reason for first 2607 raw rows and omitted 214 CN7 rows is undocumented.",
+    "PART_NO lookup is recovered from supplied middle file; not computable from process measurements.",
+    "Scaling all provided rows reproduces historical files; new predictive evaluation must fit preprocessing on training only."
+  ]
+}

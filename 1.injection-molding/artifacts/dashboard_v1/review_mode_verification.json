@@ -1,0 +1,8 @@
+{
+  "counts_and_labels": "passed",
+  "pearson_matches_audit": 0.9989266883390386,
+  "csv_exclusion": "passed",
+  "excluded_record_details": "passed",
+  "date_and_product_filters": "passed",
+  "page_errors": []
+}

@@ -1,0 +1,3 @@
+product,train_end,all_unlabeled,after_train_end,overlap_with_any_labeled_event,excluded_overlap_before_train_end,eligible_unlabeled,confirmed_normal
+CN7,2020-10-27 05:48:36,35239,0,1211,1211,34028,False
+RG3,2020-10-23 07:46:03,35941,0,774,774,35167,False

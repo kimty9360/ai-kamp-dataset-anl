@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "reference_predictions_and_f1_thresholds_reproduced": 27,
+  "existing_files_unchanged": true,
+  "old_groups_and_time_groups_disjoint": true,
+  "new_outer_fits": 99,
+  "independent_test": false,
+  "oof_rows_checked": 39093,
+  "recall95_confusions_recomputed": true
+}

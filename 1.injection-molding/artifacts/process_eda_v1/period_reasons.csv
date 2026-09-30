@@ -1,0 +1,15 @@
+product,period,Reason,records
+CN7,test,미성형,1
+CN7,test,,1680
+CN7,train,가스,13
+CN7,train,미성형,4
+CN7,train,초기허용불량,10
+CN7,train,,1812
+CN7,validation,,454
+RG3,test,,3
+RG3,train,가스,17
+RG3,train,미성형,8
+RG3,train,,1157
+RG3,validation,가스,5
+RG3,validation,미성형,2
+RG3,validation,,64

@@ -1,0 +1,49 @@
+﻿column,role,stage,meaning_ko,unit_from_guide,caution_ko,guide_page
+_id,identifier,문맥/결과,데이터베이스 기록 식별자,해당 없음,파일 사이 같은 이벤트라도 ID가 다를 수 있음. 입력 제외,"17–19, 48, 91"
+Unnamed: 0,identifier,문맥/결과,CSV 내보내기 인덱스,해당 없음,시각이나 생산 순번으로 해석하지 않음. 입력 제외,"17–19, 48, 91"
+TimeStamp,context,문맥/결과,기록 시각,해당 없음,시간대·사이클의 어느 시각인지 미확인. 시간 정렬과 검증 분리에 사용,"17–19, 48, 91"
+PART_FACT_PLAN_DATE,context,문맥/결과,생산계획 일자,해당 없음,실제 기록 시각과 구분. 한국어 오전/오후 문자열 포함,"17–19, 48, 91"
+PART_FACT_SERIAL,context,문맥/결과,생산지시 품목 코드,해당 없음,개별 제품/샷 고유 번호라고 단정하지 않음,"17–19, 48, 91"
+PART_NO,context,문맥/결과,부품 모델 번호,해당 없음,개별 제품 고유 번호 아님. labeled_data에는 없음,"17–19, 48, 91"
+PART_NAME,context,문맥/결과,부품 이름,해당 없음,CN7/RG3 제품 구분과 LH/RH를 보존. 설비 모델명 아님,"17–19, 48, 91"
+EQUIP_CD,context,문맥/결과,설비 코드,해당 없음,설비별 운전 기준·센서 사용 차이를 구분,"17–19, 48, 91"
+EQUIP_NAME,context,문맥/결과,설비 이름,해당 없음,같은 제품이 다른 설비에서 생산될 수 있음,"17–19, 48, 91"
+PassOrFail,outcome,문맥/결과,양품/불량 판정,해당 없음,원자료 Y=양품 N=불량; 연결된 수치 0=양품 1=불량. 공정 입력 제외,"17–19, 48, 91"
+Reason,outcome,문맥/결과,검사 결과의 불량 사유,해당 없음,가스/미성형/초기허용불량. 인과 원인 확정은 아님. 공정 입력 제외,"17–19, 48, 91"
+ERR_FACT_QTY,aggregate_outcome,문맥/결과,생산 집계 불량 개수,개,행별 라벨이 아님. 집계 단위·확정 시각 미확인. 공정 입력 제외,"17–19, 48, 91"
+Injection_Time,process,사출,사출에 걸린 시간,초,가이드 정의의 고압/사출시간 구간을 센서 사양과 대조할 것,18
+Filling_Time,process,충전,금형 내부 충전 시간,초,사출시간과 중첩될 수 있어 단순 합산 금지,18
+Plasticizing_Time,process,가소화·계량,다음 사출량을 녹이고 계량하는 시간,초,냉각과 겹칠 수 있음,18
+Cycle_Time,process,전체 사이클,제품 생산 사이클 시간,초,전체 완료 후 확정. 다른 시간 열의 합으로 가정하지 않음,18
+Clamp_Close_Time,process,형체,금형 닫힘에 걸린 시간,초,형체력(조이는 힘)이 아님,18
+Cushion_Position,process,보압,쿠션 관련 스크루 위치,mm,좌표 원점·방향이 미확인. 값이 크면 잔량이 많다고 단정 금지,18
+Switch_Over_Position,process,충전→보압,고압/보압 전환 위치,mm,0의 의미와 위치 기준 확인,18
+Plasticizing_Position,process,계량,계량 완료 스크루 위치,mm,직접 부피·중량이 아님,18
+Clamp_Open_Position,process,취출,금형이 열린 위치,mm,센서 0/상수·원점 확인,18
+Max_Injection_Speed,process,충전,최대 사출 속도,mm/s,전체 요약값이며 사출 중 속도 파형은 없음,18
+Max_Screw_RPM,process,가소화/사출,최대 스크루 속도,가이드 mm/s; 열 이름 RPM와 불일치,회전수/선속도·배율·집계 구간 확인 전 물리적 차이 해석 금지,18
+Average_Screw_RPM,process,가소화/사출,평균 스크루 속도,가이드 mm/s; 열 이름 RPM와 불일치,회전수/선속도·배율·집계 구간 확인 전 물리적 차이 해석 금지,18
+Max_Injection_Pressure,process,사출/전환,최대 사출 압력,MPa (가이드 표기),캐비티 내부 압력과 동일하다고 단정하지 않음,18
+Max_Switch_Over_Pressure,process,사출/전환,사출→보압 전환 압력,MPa (가이드 표기),최대값 정의와 측정 시점 확인. 보압 전체 곡선 아님,18
+Max_Back_Pressure,process,가소화·계량,최대 배압,MPa (가이드 표기),평균 열보다 작은 사례 존재. 단위·배율·구간 확인,18
+Average_Back_Pressure,process,가소화·계량,평균 배압,MPa (가이드 표기),최대 열보다 큰 사례 존재. 단위·배율·구간 확인,18
+Barrel_Temperature_1,process,가소화,배럴 온도 채널 1,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_2,process,가소화,배럴 온도 채널 2,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_3,process,가소화,배럴 온도 채널 3,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_4,process,가소화,배럴 온도 채널 4,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_5,process,가소화,배럴 온도 채널 5,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_6,process,가소화,배럴 온도 채널 6,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Barrel_Temperature_7,process,가소화,배럴 온도 채널 7,℃,채널 위치·설정/실측 여부 미확인. S14 라벨 자료의 7번은 전부 0,18
+Hopper_Temperature,process,재료 공급,호퍼 온도,℃,재료 수분 함량이나 건조 완료 여부를 직접 측정한 값이 아님,18
+Mold_Temperature_1,process,냉각/금형,금형 온도 채널 1,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_2,process,냉각/금형,금형 온도 채널 2,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_3,process,냉각/금형,금형 온도 채널 3,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_4,process,냉각/금형,금형 온도 채널 4,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_5,process,냉각/금형,금형 온도 채널 5,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_6,process,냉각/금형,금형 온도 채널 6,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_7,process,냉각/금형,금형 온도 채널 7,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_8,process,냉각/금형,금형 온도 채널 8,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_9,process,냉각/금형,금형 온도 채널 9,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_10,process,냉각/금형,금형 온도 채널 10,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_11,process,냉각/금형,금형 온도 채널 11,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19
+Mold_Temperature_12,process,냉각/금형,금형 온도 채널 12,℃,가이드에 호퍼 설명이 중복 기재됨. 위치 미확인. S14 라벨 자료에서는 3/4번 외 모두 0,19

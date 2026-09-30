@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "baseline_predictions_and_thresholds": "identical within 1e-12",
+  "raw_unchanged": true,
+  "group_disjoint": true,
+  "outer_fits": 144,
+  "independent_evaluation": false
+}

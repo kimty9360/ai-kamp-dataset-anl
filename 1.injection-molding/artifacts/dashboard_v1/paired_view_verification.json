@@ -1,0 +1,10 @@
+{
+  "side_by_side_domains_verified": true,
+  "matched_x_y_ranges": true,
+  "line_and_point_display": true,
+  "cn7_discordant_pairs": 12,
+  "rg3_discordant_pairs": 32,
+  "synchronized_zoom": true,
+  "missing_side_not_treated_as_normal": true,
+  "page_errors": []
+}

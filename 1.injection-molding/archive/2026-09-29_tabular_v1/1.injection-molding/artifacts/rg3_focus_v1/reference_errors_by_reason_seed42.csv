@@ -1,0 +1,5 @@
+model,reason,defects,found_inner_f1,found_top10,mean_score
+xgboost_balanced,가스,17,3,2,0.15996456442072104
+xgboost_balanced,미성형,8,2,2,0.2151523309294134
+svm_rbf,가스,17,4,0,0.2605738217760547
+svm_rbf,미성형,8,2,2,0.2650219839447229

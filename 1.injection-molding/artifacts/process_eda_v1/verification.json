@@ -1,0 +1,15 @@
+{
+  "source_unchanged": true,
+  "unique_labeled_ids": true,
+  "scope_records": 5230,
+  "scope_defects": 60,
+  "chronological_boundaries_valid": true,
+  "event_candidates_not_split_between_periods": true,
+  "eligible_unlabeled_excludes_all_labeled_event_candidates": true,
+  "models_trained": false,
+  "notebook_all_cells_passed": true,
+  "unit_tests_passed": 6,
+  "aggregate_counts_rechecked": true,
+  "archived_files_hash_verified": 790,
+  "report_links_valid": true
+}

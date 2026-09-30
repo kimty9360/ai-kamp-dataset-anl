@@ -1,10 +1,55 @@
-# 사출성형기 품질 예측
+# 사출성형 제조데이터 — 공정·시간 중심으로 다시 분석
 
-현재 상태: Dummy·Logistic·XGBoost·ExtraTrees·CatBoost·LightGBM의 전체 baseline 비교 완료(11개 설정). 라벨 의미 미확인으로 class_1 예측 성능만 보고한다.
+현재 단계는 **가이드북·원자료 진단과 S14 CN7/RG3 공정·시간 EDA 완료**다. 기존 모델 비교를 보존하고, 시간·설비·부품·좌우·불량 사유를 복구한 분석을 새로 시작한다. 아직 새 모델 학습이나 성능 개선을 주장하는 단계는 아니다.
 
-## Jupyter에서 셀 단위로 실행
+## 현재 작업 요약
 
-WSL Ubuntu 터미널에서 실행한다. 현재 환경은 Windows Anaconda가 아닌 WSL의 Miniforge/Conda에 설치되어 있다.
+[전처리 재설계 전 체크포인트](docs/current_status.md) — 완료한 작업, 확인된 사실, 남은 불확실성, 다음 전처리 계획과 재현 방법을 정리했습니다.
+
+[CN7 10/29~30 진단](artifacts/cn7_oct29_30_audit/report.md): 검토 18건과 상관계수 민감도, 평균 RPM 배율 문제. 원본·라벨은 보존하며 대시보드에서 포함/제외 비교가 가능합니다.
+
+## HTML 대시보드
+
+[브라우저에서 열기](http://127.0.0.1:8765/) — 차종·좌우·날짜 선택, 공정 컬럼 36개 중 제품별 상수 제외 후 기본 24개의 시간 그래프, LH/RH 좌우 비교·실제 불량 표시·온도 이동 중앙값/표준편차, 수치 상관계수, 기록 상세·CSV 저장. 노트북 실행 없이 사용할 수 있다. [사용·재실행 안내](dashboard/README.md).
+
+## 최신 분석
+
+- [상관계수 노트북](notebooks/02_labeled_correlations.ipynb) / [분석 보고서](artifacts/correlation_v1/report.md): 제품·좌우별 Pearson/Spearman, JX1/SP2 처리, 캐비티 수의 미확인 사항.
+
+- [01_process_eda.ipynb](notebooks/01_process_eda.ipynb): 날짜·좌우·불량 사유와 원단위 공정값. 원하는 날짜 확대 가능.
+- [공정·시간 EDA 보고서](artifacts/process_eda_v1/report.md): 초기허용불량 관측, 미라벨 분포 차이, 시간 분할의 표본 부족.
+- 이번에는 새 모델을 학습하지 않았다. 다음은 운전 조건·센서 사용 구간 조사와 개발용 시간 백테스트 설계다.
+
+- [가공 데이터 계산 경로 재현](docs/processing_reconstruction.md): labeled_data에서 중간본·표준화 CN7/RG3가 되는 계산과 미확인 선택 이유.
+
+## 먼저 읽을 자료
+
+1. [가이드북 상세 분석](docs/guidebook_review.md): 공정 원리 → 제공 자료 → 불량 유형 → AE/준지도 예제 → 새 분석 순서.
+2. [원자료 진단 결과](artifacts/source_review_v1/report.md): 실제 파일 크기, 중복, 시간 간격, 불량 사유, 미라벨과의 중복 후보.
+3. [00_source_review.ipynb](notebooks/00_source_review.ipynb): 표와 기간·불량 기록을 셀 단위로 확인.
+4. [전체 48종 열 설명](docs/process_column_dictionary.csv): 원단위·의미·해석 유의점.
+5. [기존 실험 보관본](archive/2026-09-29_tabular_v1/README.md): baseline부터 RG3 집중 실험까지 모두 보존.
+
+## 폴더 구성
+
+```text
+1.injection-molding/
+  sources/                     제공 ZIP·가이드북, 변경하지 않음
+  docs/                        새 공정·데이터 분석 문서
+  scripts/review_sources.py    읽기 전용 데이터 진단
+  notebooks/00_source_review.ipynb
+  notebooks/01_process_eda.ipynb
+  scripts/process_eda.py        시간·공정 EDA 재현
+  artifacts/process_eda_v1/     그래프·비교·분할 가능성 점검
+  artifacts/source_review_v1/  새 진단 결과 (모델 평가 결과 아님)
+  archive/2026-09-29_tabular_v1/
+    1.injection-molding/        기존 폴더 구조와 파일 전체
+    manifest.json              로컬 SHA-256 보존 검증 목록
+```
+
+## Jupyter에서 확인
+
+WSL 터미널에서:
 
 ```bash
 cd /home/kimty/projects/kamp-ai
@@ -12,45 +57,16 @@ conda activate kamp-base
 jupyter lab
 ```
 
-터미널에 표시된 localhost 접속 주소를 Windows 브라우저에서 열고 `1.injection-molding/notebooks/01_baseline.ipynb`를 선택한다.
-커널은 `Python (kamp-base)`를 선택한다. VS Code WSL에서도 같은 파일을 열고 이 커널을 선택할 수 있다.
+터미널의 접속 주소를 브라우저에서 열고 `1.injection-molding/notebooks/00_source_review.ipynb`를 선택한다. 커널은 `Python (kamp-base)`다. 위에서 아래로 실행한다. 기본 실행은 저장된 요약표를 읽으며 학습하지 않는다. 로그인 토큰은 실행 중인 Jupyter 터미널에서 확인한다.
 
-`Shift+Enter`로 위에서 아래로 실행한다. 기본은 기존 결과 확인 모드이며, 설정 셀의 `RUN_TRAINING = True`로 바꾸면 새로 학습한다.
-새 결과는 `artifacts/notebook_runs/<실행시각_ID>/results/`에 저장되므로 기존 결과를 덮어쓰지 않는다.
-하이퍼파라미터는 노트북의 `config`에서 수정한다. 새 학습 없이 설정만 바꾸면 기존 결과는 바뀌지 않으며, 결과 셀에 실제 학습에 사용된 설정을 표시한다.
-JupyterLab에서 단일 셀 실행은 Shift+Enter, 전체 실행은 Run → Run All Cells, 중단은 Kernel → Interrupt Kernel을 사용한다.
-
-Windows Anaconda Navigator에서 별도 서버를 실행하면 현재 WSL의 커널 및 패키지를 자동으로 공유하지 않는다. 현재 환경을 그대로 사용하려면 위 WSL 명령 또는 VS Code WSL 경로를 사용한다.
-
-- [baseline 결과 보고서](artifacts/baseline_v2/report.md)
-- [비교 그림](artifacts/baseline_v2/comparison.png)
-- [검증 프로토콜](docs/validation_protocol_baseline_v2.md)
-- [실험 설정](configs/baseline_v2.json)
-- [데이터 진단](artifacts/audit/data_audit.md)
-
-상위 `kamp-ai` 프로젝트 루트에서 공통 환경 `kamp-base`를 활성화하고 실행한다.
+다시 진단할 때:
 
 ```bash
-conda activate kamp-base
-python -m unittest discover -s 1.injection-molding/tests -v
-python 1.injection-molding/scripts/data_audit.py
-python 1.injection-molding/scripts/train_baseline.py --config 1.injection-molding/configs/baseline_v2.json --output-dir 1.injection-molding/artifacts/baseline_v2_rerun
-python 1.injection-molding/scripts/verify_baseline.py --run-dir 1.injection-molding/artifacts/baseline_v2_rerun
-python 1.injection-molding/scripts/report_baseline.py --run-dir 1.injection-molding/artifacts/baseline_v2_rerun
+python 1.injection-molding/scripts/review_sources.py --output 1.injection-molding/artifacts/source_review_rerun
 ```
 
-기존 실행 결과는 덮어쓰지 않는다. `dataset/`은 원본이며 수정하지 않는다.
-폴드별 모델은 개발 검증 산출물이며 배포용 최종 모델이 아니다. 전체 데이터 재학습 및 미라벨 제출 예측은 아직 수행하지 않았다.
+기존 실험을 찾을 때는 `archive/2026-09-29_tabular_v1/1.injection-molding/notebooks/` 및 `artifacts/`를 확인한다. 예전 절대 경로는 달라졌고, 과거 노트북의 재학습은 현재 작업이 아니다. 폴더 이동 전에 열어 둔 노트북 탭은 닫고 새 위치에서 다시 연다.
 
-첫 5개 설정 비교는 [baseline_v1](artifacts/baseline_v1/report.md)에 보존합니다.
-확장 baseline_v2는 baseline_v1의 원본·분할·기존 설정을 그대로 사용합니다.
-GitHub에서 새로 복제한 환경은 기준 split 재생성 방법을 검증 프로토콜에서 확인하세요.
+시간 EDA 결과, 단순 날짜 60/20/20 분할은 불량 사례가 부족해 최종 평가에 적합하지 않았다. 다음은 미라벨의 운전 조건·센서 사용 구간 조사와 개발용 시간 백테스트 설계다. 0.2초 원시 파형, 모든 불량 유형의 라벨, 불량 확률이 이미 확보됐다고 가정하지 않는다.
 
-## EDA 및 오류 분석
-
-[02_eda.ipynb](notebooks/02_eda.ipynb)를 `Python (kamp-base)` 커널로 열고 위에서부터 실행합니다. 기본값 `RUN_EDA = False`는 저장된 분석 결과를 읽습니다. `RUN_EDA = True`는 기존 baseline의 OOF 예측으로 분석을 재생성하며 모델을 재학습하지 않습니다. 결과는 `artifacts/eda_runs/`의 새 폴더에 저장됩니다.
-
-- [분석 보고서](artifacts/eda_v1/report.md)
-- [분석 범위와 재현 방법](docs/eda_protocol.md)
-
-공식 원본 다운로드 검증은 선택 사항(`DOWNLOAD_OFFICIAL_SOURCE = True`)이며 기본 실행에는 네트워크가 필요하지 않습니다. 행별 상세 표와 OOF 예측은 로컬 파일이므로 GitHub 복제본에서는 baseline과 EDA를 재실행해야 상세 사례까지 볼 수 있습니다. 보고서의 `nan`은 계산 불가를 뜻하며, RG3 앞 10%에는 class_1이 없어 해당 AUC를 계산할 수 없습니다.
+공정 EDA 재현: `python 1.injection-molding/scripts/process_eda.py --output 1.injection-molding/artifacts/process_eda_rerun`. 새 출력 폴더를 지정한다.

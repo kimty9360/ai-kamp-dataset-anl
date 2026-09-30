@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "baseline_and_raw_unchanged": true,
+  "baseline_reference_refits": 33,
+  "new_outer_fits": 297,
+  "old_process_groups_preserved": true,
+  "same_equipment_timestamp_groups_disjoint": true,
+  "dummy_metrics_unchanged": true,
+  "independent_test": false
+}

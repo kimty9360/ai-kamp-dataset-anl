@@ -1,0 +1,13 @@
+cohort,records,defects,feature_a,feature_b,pearson,spearman
+all_cn7,3974,28,Injection_Time,Filling_Time,0.0951156925248556,0.9630777919786268
+all_cn7,3974,28,Barrel_Temperature_1,Barrel_Temperature_2,0.9561602956206139,-0.008269750898616812
+all_cn7,3974,28,Barrel_Temperature_1,Hopper_Temperature,0.7890042378858856,0.018969894634804602
+all_cn7,3974,28,Mold_Temperature_3,Mold_Temperature_4,0.9620748502538831,0.9648322990170671
+exclude_review_flag_only,3956,28,Injection_Time,Filling_Time,0.9989266883390542,0.9901271818951586
+exclude_review_flag_only,3956,28,Barrel_Temperature_1,Barrel_Temperature_2,-0.01268681610313418,-0.022182499700966578
+exclude_review_flag_only,3956,28,Barrel_Temperature_1,Hopper_Temperature,0.0044714188219441686,0.005477859351125054
+exclude_review_flag_only,3956,28,Mold_Temperature_3,Mold_Temperature_4,0.9668852513023815,0.9693183902135
+exclude_both_dates,2765,28,Injection_Time,Filling_Time,0.9991970689318794,0.9864749685880618
+exclude_both_dates,2765,28,Barrel_Temperature_1,Barrel_Temperature_2,-0.01733287769933484,-0.02629839934161252
+exclude_both_dates,2765,28,Barrel_Temperature_1,Hopper_Temperature,0.009050490786178523,0.004917393934729237
+exclude_both_dates,2765,28,Mold_Temperature_3,Mold_Temperature_4,0.9637164181603438,0.9747529383750122

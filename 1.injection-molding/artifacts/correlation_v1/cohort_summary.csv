@@ -1,0 +1,9 @@
+cohort,records,defects,dates,event_candidates,interpretation
+all_products_reference,5232,60,14,2626,mixed product/equipment reference only
+s14_pooled_reference,5230,60,13,2624,mixed product/equipment reference only
+cn7,3974,28,7,1995,descriptive within product; sides retained or separated
+cn7_lh,1985,10,7,1985,descriptive within product; sides retained or separated
+cn7_rh,1989,18,7,1989,descriptive within product; sides retained or separated
+rg3,1256,32,6,629,descriptive within product; sides retained or separated
+rg3_lh,628,5,6,628,descriptive within product; sides retained or separated
+rg3_rh,628,27,5,628,descriptive within product; sides retained or separated

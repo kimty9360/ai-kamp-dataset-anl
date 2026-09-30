@@ -1,0 +1,44 @@
+{
+  "source_sha256": "f35b9cc904aaa57daf0feb0fb2462f7b7ba740ded8effa6ec61b6b7678496421",
+  "script_sha256": "37d0eb986869eb82dbfead5b01602d5c1aad85de8049c9c66417e539fa23cf3b",
+  "scope": "S14; exact CN7 W/S SIDE and RG3 W/SHLD family; sides retained",
+  "gap_minutes": 10,
+  "gap_meaning": "Observation gap only; NOT confirmed restart",
+  "split_rule": "Observed unique dates, floor 60/80 percent boundaries, at least one day per partition; labels not used to choose boundaries",
+  "period_dates": {
+    "CN7": {
+      "train": [
+        "2020-10-16",
+        "2020-10-19",
+        "2020-10-20",
+        "2020-10-27"
+      ],
+      "validation": [
+        "2020-10-29"
+      ],
+      "test": [
+        "2020-10-30",
+        "2020-11-03"
+      ]
+    },
+    "RG3": {
+      "train": [
+        "2020-10-21",
+        "2020-10-22",
+        "2020-10-23"
+      ],
+      "validation": [
+        "2020-11-04"
+      ],
+      "test": [
+        "2020-11-05",
+        "2020-11-06"
+      ]
+    }
+  },
+  "status": "Exploratory feasibility, NOT pristine holdout; all labels already inspected during EDA",
+  "unlabeled_rule": "At or before training end, exclude any labeled event timestamp of same product/S14 regardless of side; labels unknown",
+  "models_trained": false,
+  "pandas": "2.1.4",
+  "numpy": "1.26.4"
+}

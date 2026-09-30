@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "new_outer_fits": 162,
+  "new_inner_fits": 486,
+  "reference_side_model_refits": 3,
+  "raw_baseline_side_unchanged": true,
+  "process_and_time_groups_disjoint": true,
+  "independent_test": false,
+  "oof_rows_checked": 86148,
+  "existing_summary_unchanged": true
+}

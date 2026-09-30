@@ -1,0 +1,37 @@
+{
+  "variants": [
+    "base",
+    "temperature_differences",
+    "pressure_difference",
+    "shallower_tree"
+  ],
+  "models": [
+    "xgboost_balanced",
+    "catboost_balanced"
+  ],
+  "scenarios": [
+    "cn7",
+    "rg3"
+  ],
+  "selection": "highest inner OOF AP; ties prefer earlier variant",
+  "threshold": "inner OOF F1 only",
+  "target": "class_1, semantics unconfirmed",
+  "deployment_assumption": "after cycle completion, before quality inspection",
+  "ranking_budget": 0.1,
+  "independent_test": false,
+  "feature_units": "differences of provided standardized values, not physical units",
+  "shallower_tree": {
+    "max_depth_or_depth": 2
+  },
+  "source_hashes": {
+    "config.json": "61f468e799ee8ece8f522bb298af0ff1c4293356b0b4810afa494ee821d8b2ab",
+    "splits.json": "93669051ad1190e0151fdd387feeb2cfadeb9d55e053a8951c37f9b818feeceb",
+    "oof_predictions.csv": "a1510e592fd8207944f53af56508b4de06a3a04319e90909015d11198283cf3b"
+  },
+  "raw_hashes": {
+    "moldset_labeled_cn7.csv": "f870b0c259297f20d503f2e2739966553e5db5ef1deb0cc7513eefa4bbfa2753",
+    "moldset_labeled_rg3.csv": "14aab21476eea02c823ccb00f82800040280d805dbce5a3eb7c11b176a9e5aa4"
+  },
+  "code_sha256": "808f66858a4c5be732954bbc4e040fd8c21fd7b184490e90e7a93a9cbc653c2d",
+  "baseline_helper_sha256": "9cd0ac4107c4b01c6dd32c410f36658e35c0c7ef245bbb6f3df46013de9226db"
+}

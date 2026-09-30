@@ -1,0 +1,3 @@
+product,records,event_candidates,exactly_two_opposite_side_records,paired_same_36_process_values,paired_different_labels,confirmed_cavity_count,pearson_max_abs_event_weight_change,spearman_max_abs_event_weight_change,event_process_rows
+CN7,3974,1995,1979,1979,12,False,0.2729733893329658,0.04360959682309415,1995
+RG3,1256,629,627,627,32,False,0.010980091300253694,0.01138835925581488,629

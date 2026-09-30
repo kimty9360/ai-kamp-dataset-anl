@@ -1,11 +1,5 @@
 # KAMP AI 경진대회 작업 공간
 
-## 사출성형 현재 작업
-
-[전처리 재설계 전 진행 요약](1.injection-molding/docs/current_status.md) · [사출 과제 안내](1.injection-molding/README.md) · [대시보드 사용법](1.injection-molding/dashboard/README.md)
-
-현재는 원자료 공정·시간 EDA와 데이터 품질 점검까지 완료했습니다. 새 전처리와 학습은 다음 단계이며, 이전 모델 실험은 사출 과제의 archive 폴더에서 확인할 수 있습니다.
-
 ## 공통 개발환경
 
 과제들이 공유하는 Conda 환경 `kamp-base`의 정의는 이 루트에서 관리합니다.
@@ -47,22 +41,28 @@ VS Code의 Python 인터프리터와 노트북 커널은 `kamp-base`를 선택�
 이는 GPU 인식 확인이며, 개별 학습 라이브러리의 CUDA 연산 호환성 검증은 별도로 필요합니다.
 CUDA UMD 표시는 설치된 CUDA Toolkit 버전을 뜻하지 않습니다.
 
-## 현재 작업
+## 현재 결과
 
-- [사출 공정 HTML 대시보드](http://127.0.0.1:8765/) · [접속 및 재실행 안내](1.injection-molding/dashboard/README.md)
+제6회 K-인공지능 제조데이터 분석 경진대회 과제 중 사출성형기 데이터의 전체 baseline 6개 계열·11개 설정 비교와 EDA·OOF 오류 분석을 완료했습니다.
 
-사출성형 과제는 2026-09-29부터 가이드북과 1차 가공 데이터의 시간·설비·부품·불량 사유를 중심으로 재분석합니다. 이전 표준화 데이터 실험은 파일 전체를 보존했습니다.
+- [실행 안내 및 Jupyter 노트북 사용법](1.injection-molding/README.md)
+- [EDA 노트북](1.injection-molding/notebooks/02_eda.ipynb)
+- [EDA 및 오류 분석 보고서](1.injection-molding/artifacts/eda_v1/report.md)
+- [Baseline 결과 보고서](1.injection-molding/artifacts/baseline_v2/report.md)
+- [성능 비교 그래프](1.injection-molding/artifacts/baseline_v2/comparison.png)
+- [실험 설정](1.injection-molding/configs/baseline_v2.json)
+- [검증 프로토콜](1.injection-molding/docs/validation_protocol_baseline_v2.md)
 
-- [새 분석 안내](1.injection-molding/README.md)
-- [가이드북 상세 검토](1.injection-molding/docs/guidebook_review.md)
-- [원자료 자동 진단 결과](1.injection-molding/artifacts/source_review_v1/report.md)
-- [공정·시간 EDA 보고서](1.injection-molding/artifacts/process_eda_v1/report.md)
-- [공정·시간 EDA 노트북](1.injection-molding/notebooks/01_process_eda.ipynb)
-- [Jupyter 원자료 검토 노트북](1.injection-molding/notebooks/00_source_review.ipynb)
-- [기존 baseline·EDA·개선 실험 보관본](1.injection-molding/archive/2026-09-29_tabular_v1/README.md)
+## GitHub 저장 범위
 
-## 저장 범위
+공통 환경 정의, 설계서, 코드, 테스트, 출력이 제거된 노트북, 데이터 진단 요약, baseline 성능표·그래프를 저장합니다.
+대회 원본 데이터, 모델 바이너리, 행별 예측·그룹표, split 인덱스, 반복 실행 및 임시 파일은 저장하지 않습니다.
+이 파일들은 로컬에 보관하며 코드로 재생성할 수 있습니다. 전체 디스크 백업을 대신하는 저장소는 아닙니다.
 
-공통 환경, 코드, 문서, 집계 보고서를 관리합니다. 제공 ZIP·PDF·대회 CSV, 모델, 행별 예측, 실행 출력이 포함된 보관 노트북은 로컬에서 보존합니다. GitHub 복제본만으로 로컬 전체를 복원할 수는 없습니다. [자료 배치 안내](1.injection-molding/sources/README.md)에 따라 제공 자료를 준비하세요.
+복제한 환경에서는 [데이터 준비 안내](1.injection-molding/dataset/README.md)에 따라 데이터를 배치하고,
+노트북의 `RUN_TRAINING = True`로 새로 실행하면 행별 예측·모델을 포함한 전체 산출물이 생성됩니다.
+학습 없이 결과만 읽으려면 저장된 report.md, summary.csv, comparison.png를 확인하세요.
 
-이번 정리는 로컬 작업이며 GitHub에 새로 커밋하거나 푸시하지 않았습니다. 기존 실험의 경로가 보관 폴더로 이동했으므로 이전 바로가기 대신 위 링크를 사용하세요.
+## 좌우 정보 추가 실험
+
+원자료 연결로 복구한 좌우 부품 정보를 기존 입력에 추가한 비교는 [side_feature_v1 보고서](1.injection-molding/artifacts/side_feature_v1/report.md)와 [04_side_feature.ipynb](1.injection-molding/notebooks/04_side_feature.ipynb)에서 확인합니다. 기존 baseline 결과는 보존합니다.
